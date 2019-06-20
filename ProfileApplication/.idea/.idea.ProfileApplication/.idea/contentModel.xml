@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Fadi\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Fadi\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_ProfileApplication.-796889371.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Fadi\RiderProjects\ProfileApplication" t="IncludeFlat">
+    <e p="C:\Users\Fadi\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_ProfileApplication.486452461.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Fadi\Documents\GitHub\ProfileApplication\ProfileApplication" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="ProfileApplication" t="IncludeRecursive">
         <e p="app.config" t="Include" />
@@ -15,7 +15,7 @@
         </e>
         <e p="Models" t="Include">
           <e p="Weather" t="Include">
-            <e p="IWeatherInfo.cs" t="Include" />
+            <e p="LiveWeather.cs" t="Include" />
             <e p="WeatherInfo.cs" t="Include" />
           </e>
         </e>

@@ -122,7 +122,7 @@ namespace ProfileApplication.Models
         [JsonProperty("d2zon")]
         public string SunChanwceDay2{ get; set; }
         
-        public string Alarm{ get; set; }
+        public string alarm{ get; set; }
         
         public string alarmtxt{ get; set; }
         

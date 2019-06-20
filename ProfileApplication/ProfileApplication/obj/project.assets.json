@@ -8507,11 +8507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Fadi\\RiderProjects\\ProfileApplication\\ProfileApplication\\ProfileApplication.csproj",
+      "projectUniqueName": "C:\\Users\\Fadi\\Documents\\GitHub\\ProfileApplication\\ProfileApplication\\ProfileApplication\\ProfileApplication.csproj",
       "projectName": "ProfileApplication",
-      "projectPath": "C:\\Users\\Fadi\\RiderProjects\\ProfileApplication\\ProfileApplication\\ProfileApplication.csproj",
+      "projectPath": "C:\\Users\\Fadi\\Documents\\GitHub\\ProfileApplication\\ProfileApplication\\ProfileApplication\\ProfileApplication.csproj",
       "packagesPath": "C:\\Users\\Fadi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Fadi\\RiderProjects\\ProfileApplication\\ProfileApplication\\obj\\",
+      "outputPath": "C:\\Users\\Fadi\\Documents\\GitHub\\ProfileApplication\\ProfileApplication\\ProfileApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
