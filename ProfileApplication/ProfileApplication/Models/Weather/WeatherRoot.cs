@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace ProfileApplication.Models
 {
-    public class LiveWeather
+    public class WeatherRoot
     {
         [JsonProperty("liveweer")]
         public List<WeatherInfo> WeatherArr { get; set; }

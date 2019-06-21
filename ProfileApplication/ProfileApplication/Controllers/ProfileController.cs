@@ -12,13 +12,21 @@ namespace ProfileApplication.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        // GET api/values
-        [HttpGet]
-        public WeatherInfo Get()
+        private readonly WeatherService _weatherService = new WeatherService();
+        private readonly PlacesService _placesService = new PlacesService();
+
+        // GET api/profile/weather
+        [HttpGet("weather/{id}")]
+        public ActionResult<string> GetWeatherInfo(string id)
         {
-            WeatherService weatherService = new WeatherService();
-            return weatherService.GetWeatherInfo("Grou");
-//            return new string[] {"value1", "value2"};
+            return _weatherService.GetWeatherInfo(id);
+        }
+        
+        // GET api/profile/weather
+        [HttpGet("places")]
+        public ActionResult<string> GetPlaces()
+        {
+            return _placesService.GetPlaceInfo();
         }
 
         // GET api/values/5

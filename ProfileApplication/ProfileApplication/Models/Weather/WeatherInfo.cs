@@ -1,3 +1,4 @@
+using System.Runtime.Serialization;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
@@ -11,7 +12,7 @@ namespace ProfileApplication.Models
         [JsonProperty("temp")]
         public string Temperature { get; set; }
         
-        [JsonProperty("gtemp")]
+        [JsonProperty("gtemp")] 
         public string AverageTemperature { get; set; }
         
         [JsonProperty("samenv")]
@@ -125,7 +126,6 @@ namespace ProfileApplication.Models
         public string alarm{ get; set; }
         
         public string alarmtxt{ get; set; }
-        
 
     }
 }

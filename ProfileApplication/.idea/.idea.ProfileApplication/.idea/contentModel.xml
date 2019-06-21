@@ -13,10 +13,21 @@
         <e p="Controllers" t="Include">
           <e p="ProfileController.cs" t="Include" />
         </e>
+        <e p="Helpers" t="Include">
+          <e p="SerializeHelper" t="Include">
+            <e p="LongNameContractResolver.cs" t="Include" />
+            <e p="SerializationHelper.cs" t="Include" />
+          </e>
+        </e>
         <e p="Models" t="Include">
+          <e p="Places" t="Include">
+            <e p="PlaceRoot.cs" t="Include" />
+            <e p="Places.cs" t="Include" />
+            <e p="PlacesSingleton.cs" t="Include" />
+          </e>
           <e p="Weather" t="Include">
-            <e p="LiveWeather.cs" t="Include" />
             <e p="WeatherInfo.cs" t="Include" />
+            <e p="WeatherRoot.cs" t="Include" />
           </e>
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -32,6 +43,7 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Services" t="Include">
+          <e p="PlacesService.cs" t="Include" />
           <e p="WeatherService.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />

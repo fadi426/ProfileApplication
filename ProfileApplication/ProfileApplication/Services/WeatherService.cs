@@ -4,15 +4,15 @@ using System.Net;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using Newtonsoft.Json.Serialization;
+using ProfileApplication.Helper;
 using ProfileApplication.Models;
 
 namespace ProfileApplication.Services
 {
     public class WeatherService
     {
-        private WeatherInfo[] WeatherInfos;
-
-        public WeatherInfo GetWeatherInfo(string location)
+        public string GetWeatherInfo(string location)
         {
             string urlHead = "http://weerlive.nl/api/json-data-10min.php?key=3e65790d54&locatie=";
             string fullUrl = urlHead + location;
@@ -20,10 +20,12 @@ namespace ProfileApplication.Services
             using (WebClient httpClient = new WebClient())
             {
                 string jsonData = httpClient.DownloadString(fullUrl);
-                LiveWeather liveWeather = JsonConvert.DeserializeObject<LiveWeather>(jsonData);
-                WeatherInfo weatherInfo = liveWeather.WeatherArr[0];
-                Console.Out.Write(weatherInfo);
-                return weatherInfo;
+                WeatherRoot weatherRoot = JsonConvert.DeserializeObject<WeatherRoot>(jsonData);
+                WeatherInfo weatherInfo = weatherRoot.WeatherArr[0];
+                
+                SerializationHelper serializationHelper = new SerializationHelper();
+                string serializedWeatherInfo = serializationHelper.Serialize(weatherInfo, true);
+                return serializedWeatherInfo;
             }
         }
     }
