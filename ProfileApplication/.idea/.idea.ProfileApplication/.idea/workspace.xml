@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b644b165-2ed6-45f9-bf48-0b66c3f5159a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ProfileApplication/Helpers/SerializeHelper/LongNameContractResolver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProfileApplication/Helpers/SerializeHelper/SerializationHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProfileApplication/Models/Places/PlaceRoot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProfileApplication/Models/Places/Places.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProfileApplication/Models/Places/PlacesSingleton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProfileApplication/Services/PlacesService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProfileApplication/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProfileApplication/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProfileApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProfileApplication/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProfileApplication/Controllers/ProfileController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/Controllers/ProfileController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileApplication/Models/Weather/LiveWeather.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/Models/Weather/WeatherRoot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfileApplication/Models/Places/PlaceRoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/Models/Locations/LocationsRoot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfileApplication/Models/Places/Places.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/Models/Locations/Locations.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfileApplication/Models/Places/PlacesSingleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/Models/Locations/LocationsSingleton.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProfileApplication/Models/Weather/WeatherInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/Models/Weather/WeatherInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileApplication/Services/WeatherService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/Services/WeatherService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfileApplication/Services/PlacesService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/Services/LocationsService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfileApplication/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProfileApplication/bin/Debug/netcoreapp2.2/ProfileApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/bin/Debug/netcoreapp2.2/ProfileApplication.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProfileApplication/bin/Debug/netcoreapp2.2/ProfileApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/bin/Debug/netcoreapp2.2/ProfileApplication.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProfileApplication/obj/Debug/netcoreapp2.2/ProfileApplication.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/obj/Debug/netcoreapp2.2/ProfileApplication.csproj.CoreCompileInputs.cache" afterDir="false" />
@@ -28,136 +25,142 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProfileApplication/Controllers/ProfileController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+            <state relative-caret-position="430">
+              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
               <folding>
-                <marker date="1561140627747" expanded="true" signature="6:196" ph="..." />
-                <marker date="1561140627747" expanded="true" signature="238:1422" ph="{...}" />
-                <marker date="1561140627747" expanded="true" signature="338:1420" ph="{...}" />
-                <marker date="1561140627747" expanded="true" signature="633:708" ph="{...}" />
-                <marker date="1561140627747" expanded="true" signature="828:898" ph="{...}" />
-                <marker date="1561140627747" expanded="true" signature="1001:1049" ph="{...}" />
-                <marker date="1561140627747" expanded="true" signature="1146:1166" ph="{...}" />
-                <marker date="1561140627747" expanded="true" signature="1278:1298" ph="{...}" />
-                <marker date="1561140627747" expanded="true" signature="1394:1414" ph="{...}" />
+                <marker date="1561308659651" expanded="true" signature="6:229" ph="..." />
+                <marker date="1561308659651" expanded="true" signature="271:1499" ph="{...}" />
+                <marker date="1561308659651" expanded="true" signature="400:1497" ph="{...}" />
+                <marker date="1561308659651" expanded="true" signature="704:779" ph="{...}" />
+                <marker date="1561308659651" expanded="true" signature="902:975" ph="{...}" />
+                <marker date="1561308659651" expanded="true" signature="1078:1126" ph="{...}" />
+                <marker date="1561308659651" expanded="true" signature="1223:1243" ph="{...}" />
+                <marker date="1561308659651" expanded="true" signature="1355:1375" ph="{...}" />
+                <marker date="1561308659651" expanded="true" signature="1471:1491" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/9e/2e2f2ab0/ObjectMethodExecutor.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/ProfileApplication/appsettings.Development.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProfileApplication/Services/WeatherService.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-              <folding>
-                <marker date="1561133244924" expanded="true" signature="6:251" ph="..." />
-                <marker date="1561133244924" expanded="true" signature="290:1140" ph="{...}" />
-                <marker date="1561133244924" expanded="true" signature="324:1138" ph="{...}" />
-                <marker date="1561133244924" expanded="true" signature="384:1132" ph="{...}" />
-                <marker date="1561133244924" expanded="true" signature="627:1122" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Places/Places.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-              <folding>
-                <marker date="1561137934921" expanded="false" signature="6:59" ph="..." />
-                <marker date="1561137934921" expanded="true" signature="103:216" ph="{...}" />
-                <marker date="1561137934921" expanded="true" signature="129:214" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Places/PlacesSingleton.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <marker date="1561139918088" expanded="true" signature="77:544" ph="{...}" />
-                <marker date="1561139918088" expanded="true" signature="112:542" ph="{...}" />
-                <marker date="1561139918088" expanded="true" signature="254:483" ph="{...}" />
-                <marker date="1561139918088" expanded="true" signature="281:473" ph="{...}" />
-                <marker date="1561139918088" expanded="true" signature="334:425" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProfileApplication/Services/PlacesService.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-              <folding>
-                <marker date="1561139818853" expanded="true" signature="6:199" ph="..." />
-                <marker date="1561139818853" expanded="true" signature="238:1418" ph="{...}" />
-                <marker date="1561139818853" expanded="true" signature="271:1416" ph="{...}" />
-                <marker date="1561139818853" expanded="true" signature="314:862" ph="{...}" />
-                <marker date="1561139818853" expanded="true" signature="480:539" ph="{...}" />
-                <marker date="1561139818853" expanded="true" signature="915:1410" ph="{...}" />
-                <marker date="1561139818853" expanded="true" signature="1112:1400" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Places/PlaceRoot.cs">
+        <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Locations/Locations.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="64">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding>
-                <marker date="1561135036981" expanded="false" signature="6:59" ph="..." />
-                <marker date="1561135036981" expanded="true" signature="103:317" ph="{...}" />
-                <marker date="1561135036981" expanded="true" signature="132:315" ph="{...}" />
+                <marker date="1561308640250" expanded="false" signature="6:59" ph="..." />
+                <marker date="1561308640250" expanded="true" signature="103:219" ph="{...}" />
+                <marker date="1561308640250" expanded="true" signature="132:217" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Locations/LocationsSingleton.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+              <folding>
+                <marker date="1561308640287" expanded="true" signature="77:562" ph="{...}" />
+                <marker date="1561308640287" expanded="true" signature="115:560" ph="{...}" />
+                <marker date="1561308640287" expanded="true" signature="266:498" ph="{...}" />
+                <marker date="1561308640287" expanded="true" signature="293:488" ph="{...}" />
+                <marker date="1561308640287" expanded="true" signature="346:440" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProfileApplication/Services/LocationsService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="36" column="62" lean-forward="true" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+              <folding>
+                <marker date="1561308640325" expanded="false" signature="6:199" ph="..." />
+                <marker date="1561308640325" expanded="true" signature="238:1530" ph="{...}" />
+                <marker date="1561308640325" expanded="true" signature="274:1528" ph="{...}" />
+                <marker date="1561308640325" expanded="true" signature="317:940" ph="{...}" />
+                <marker date="1561308640325" expanded="true" signature="504:566" ph="{...}" />
+                <marker date="1561308640325" expanded="true" signature="999:1522" ph="{...}" />
+                <marker date="1561308640325" expanded="true" signature="1196:1512" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProfileApplication/appsettings.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Weather/WeatherInfo.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="354">
+              <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
               <folding>
-                <marker date="1561130685491" expanded="true" signature="6:95" ph="..." />
-                <marker date="1561130685491" expanded="true" signature="132:3812" ph="{...}" />
-                <marker date="1561130685491" expanded="true" signature="163:3810" ph="{...}" />
+                <marker date="1561327928845" expanded="true" signature="6:95" ph="..." />
+                <marker date="1561327928845" expanded="true" signature="132:3808" ph="{...}" />
+                <marker date="1561327928845" expanded="true" signature="163:3806" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Weather/WeatherRoot.cs">
+        <entry file="file://$PROJECT_DIR$/ProfileApplication/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="64">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding>
-                <marker date="1561133244947" expanded="false" signature="6:56" ph="..." />
-                <marker date="1561133244947" expanded="true" signature="93:231" ph="{...}" />
-                <marker date="1561133244947" expanded="true" signature="124:229" ph="{...}" />
+                <marker date="1561046611318" expanded="false" signature="6:255" ph="..." />
+                <marker date="1561046611318" expanded="true" signature="285:612" ph="{...}" />
+                <marker date="1561046611318" expanded="true" signature="312:610" ph="{...}" />
+                <marker date="1561046611318" expanded="true" signature="365:439" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProfileApplication/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+              <folding>
+                <marker date="1561308269990" expanded="false" signature="6:402" ph="..." />
+                <marker date="1561308269990" expanded="true" signature="432:1760" ph="{...}" />
+                <marker date="1561308269990" expanded="true" signature="459:1758" ph="{...}" />
+                <marker date="1561308269990" expanded="true" signature="518:581" ph="{...}" />
+                <marker date="1561308269990" expanded="true" signature="804:1144" ph="{...}" />
+                <marker date="1561308269990" expanded="true" signature="998:1131" ph="{...}" />
+                <marker date="1561308269990" expanded="true" signature="1332:1752" ph="{...}" />
+                <marker date="1561308269990" expanded="true" signature="1379:1456" ph="{...}" />
+                <marker date="1561308269990" expanded="true" signature="1473:1676" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Locations/LocationsRoot.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding>
+                <marker date="1561308640205" expanded="false" signature="6:59" ph="..." />
+                <marker date="1561308640205" expanded="true" signature="103:327" ph="{...}" />
+                <marker date="1561308640205" expanded="true" signature="136:325" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -170,6 +173,9 @@
       <find>values</find>
       <find>liveWeather</find>
       <find>Singleton</find>
+      <find>services</find>
+      <find>place</find>
+      <find>maxTemp</find>
     </findStrings>
     <replaceStrings>
       <replace>PlacesSingleton</replace>
@@ -179,28 +185,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProfileApplication/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProfileApplication/app.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/Weather/WeatherRoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProfileApplication/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProfileApplication/Services/WeatherService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProfileApplication/Controllers/ProfileController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/Places/PlacesSingleton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/Locations/LocationsSingleton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/9e/2e2f2ab0/ObjectMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/Weather/WeatherInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/Places/PlaceRoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProfileApplication/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/Locations/LocationsRoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/d8/2e675e28/ControllerActionInvoker.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProfileApplication/Services/PlacesService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/Places/Places.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProfileApplication/Services/LocationsService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProfileApplication/app.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/Locations/Locations.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProfileApplication/Helpers/SerializeHelper/SerializationHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProfileApplication/Helpers/SerializeHelper/LongNameContractResolver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/Weather/WeatherRoot.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -208,7 +207,6 @@
         <option value="$PROJECT_DIR$/ProfileApplication/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/ProfileApplication/Models/WeatherInfo.cs" />
         <option value="$PROJECT_DIR$/ProfileApplication/Models/Weather/IWeatherInfo.cs" />
-        <option value="$PROJECT_DIR$/ProfileApplication/Models/Weather/WeatherInfo.cs" />
         <option value="$PROJECT_DIR$/ProfileApplication/Helper/SerializeHelper.cs" />
         <option value="$PROJECT_DIR$/ProfileApplication/Helpers/SerializeHelper/LongNameContractResolver.cs" />
         <option value="$PROJECT_DIR$/ProfileApplication/Helpers/SerializeHelper/Serialize.cs" />
@@ -223,9 +221,15 @@
         <option value="$PROJECT_DIR$/ProfileApplication/Controllers/WeatherController.cs" />
         <option value="$PROJECT_DIR$/ProfileApplication/Models/Places/Places.cs" />
         <option value="$PROJECT_DIR$/ProfileApplication/Models/Singleton/Singleton.cs" />
-        <option value="$PROJECT_DIR$/ProfileApplication/Services/PlacesService.cs" />
         <option value="$PROJECT_DIR$/ProfileApplication/Models/Places/PlacesSingleton.cs" />
+        <option value="$PROJECT_DIR$/ProfileApplication/Services/PlacesService.cs" />
+        <option value="$PROJECT_DIR$/ProfileApplication/Startup.cs" />
+        <option value="$PROJECT_DIR$/ProfileApplication/Models/Locations/LocationsRoot.cs" />
+        <option value="$PROJECT_DIR$/ProfileApplication/Models/Locations/Locations.cs" />
+        <option value="$PROJECT_DIR$/ProfileApplication/Models/Locations/LocationsSingleton.cs" />
+        <option value="$PROJECT_DIR$/ProfileApplication/Services/LocationsService.cs" />
         <option value="$PROJECT_DIR$/ProfileApplication/Controllers/ProfileController.cs" />
+        <option value="$PROJECT_DIR$/ProfileApplication/Models/Weather/WeatherInfo.cs" />
       </list>
     </option>
   </component>
@@ -236,9 +240,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1046" />
-    <option name="y" value="42" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-14" />
+    <option name="y" value="21" />
     <option name="width" value="1266" />
     <option name="height" value="1087" />
   </component>
@@ -248,7 +252,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -271,12 +274,6 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="ProfileApplication" type="24d0babc:SolutionExplorerModelNode" />
               <item name="ProfileApplication" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Helpers" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ProfileApplication" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ProfileApplication" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
@@ -284,7 +281,7 @@
               <item name="ProfileApplication" type="24d0babc:SolutionExplorerModelNode" />
               <item name="ProfileApplication" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Places" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Locations" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
@@ -305,6 +302,7 @@
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -370,12 +368,22 @@
       <workItem from="1561046608663" duration="10167000" />
       <workItem from="1561064044813" duration="2376000" />
       <workItem from="1561066512101" duration="1661000" />
-      <workItem from="1561123210241" duration="17332000" />
+      <workItem from="1561123210241" duration="18979000" />
+      <workItem from="1561199269232" duration="1204000" />
+      <workItem from="1561307688160" duration="4938000" />
     </task>
+    <task id="LOCAL-00001" summary="Added place functionallity, including models, service and end-point">
+      <created>1561141170530</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561141170530</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31536000" />
+    <option name="totallyTimeSpent" value="39325000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -387,16 +395,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2503" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="-14" y="21" width="1266" height="1087" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14198036" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14676617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2988741" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39815763" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29815573" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39856556" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32958034" />
@@ -409,7 +416,7 @@
       <window_info anchor="bottom" id="REST Client" order="13" weight="0.32958034" />
       <window_info anchor="bottom" id="Terminal" order="14" weight="0.32958034" />
       <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="16" weight="0.3285568" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.32786885" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -421,6 +428,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added place functionallity, including models, service and end-point" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added place functionallity, including models, service and end-point" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -429,66 +440,66 @@
           <option name="timeStamp" value="1" />
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ProfileApplication/Services/PlacesService.cs</url>
+          <url>file://$PROJECT_DIR$/ProfileApplication/Services/LocationsService.cs</url>
           <line>18</line>
           <properties documentPath="$PROJECT_DIR$/ProfileApplication/Services/PlacesService.cs" initialLine="18">
             <startOffsets>
-              <option value="511" />
+              <option value="551" />
             </startOffsets>
             <endOffsets>
-              <option value="525" />
+              <option value="552" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ProfileApplication/Services/PlacesService.cs</url>
-          <line>24</line>
+          <url>file://$PROJECT_DIR$/ProfileApplication/Services/LocationsService.cs</url>
+          <line>26</line>
           <properties documentPath="$PROJECT_DIR$/ProfileApplication/Services/PlacesService.cs" initialLine="25">
             <startOffsets>
-              <option value="828" />
+              <option value="929" />
             </startOffsets>
             <endOffsets>
-              <option value="852" />
+              <option value="930" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ProfileApplication/Services/PlacesService.cs</url>
+          <url>file://$PROJECT_DIR$/ProfileApplication/Services/LocationsService.cs</url>
           <line>16</line>
           <properties documentPath="$PROJECT_DIR$/ProfileApplication/Services/PlacesService.cs" initialLine="16">
             <startOffsets>
-              <option value="461" />
+              <option value="479" />
             </startOffsets>
             <endOffsets>
-              <option value="480" />
+              <option value="498" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ProfileApplication/Controllers/ProfileController.cs</url>
-          <line>28</line>
+          <line>30</line>
           <properties documentPath="$PROJECT_DIR$/ProfileApplication/Controllers/ProfileController.cs" initialLine="28">
             <startOffsets>
-              <option value="851" />
+              <option value="925" />
             </startOffsets>
             <endOffsets>
-              <option value="888" />
+              <option value="965" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ProfileApplication/Controllers/ProfileController.cs</url>
-          <line>21</line>
+          <line>23</line>
           <properties documentPath="$PROJECT_DIR$/ProfileApplication/Controllers/ProfileController.cs" initialLine="21">
             <startOffsets>
-              <option value="656" />
+              <option value="727" />
             </startOffsets>
             <endOffsets>
-              <option value="698" />
+              <option value="769" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="17" />
@@ -570,42 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApplication/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <marker date="1561046611318" expanded="false" signature="6:255" ph="..." />
-            <marker date="1561046611318" expanded="true" signature="285:612" ph="{...}" />
-            <marker date="1561046611318" expanded="true" signature="312:610" ph="{...}" />
-            <marker date="1561046611318" expanded="true" signature="365:439" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApplication/appsettings.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApplication/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <marker date="1561046611341" expanded="false" signature="6:402" ph="..." />
-            <marker date="1561046611341" expanded="true" signature="432:1529" ph="{...}" />
-            <marker date="1561046611341" expanded="true" signature="459:1527" ph="{...}" />
-            <marker date="1561046611341" expanded="true" signature="518:581" ph="{...}" />
-            <marker date="1561046611341" expanded="true" signature="804:913" ph="{...}" />
-            <marker date="1561046611341" expanded="true" signature="1101:1521" ph="{...}" />
-            <marker date="1561046611341" expanded="true" signature="1148:1225" ph="{...}" />
-            <marker date="1561046611341" expanded="true" signature="1242:1445" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApplication/app.config">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProfileApplication/Helpers/SerializeHelper/LongNameContractResolver.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -635,109 +610,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApplication/Controllers/WeatherController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Weather/WeatherInfo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <marker date="1561130685491" expanded="true" signature="6:95" ph="..." />
-            <marker date="1561130685491" expanded="true" signature="132:3812" ph="{...}" />
-            <marker date="1561130685491" expanded="true" signature="163:3810" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Places/PlaceRoot.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <marker date="1561135036981" expanded="false" signature="6:59" ph="..." />
-            <marker date="1561135036981" expanded="true" signature="103:317" ph="{...}" />
-            <marker date="1561135036981" expanded="true" signature="132:315" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApplication/Controllers/WeatherController.cs" />
+    <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Singleton/Singleton.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/9e/2e2f2ab0/ObjectMethodExecutor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
+        <state>
           <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Places/Places.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <marker date="1561137934921" expanded="false" signature="6:59" ph="..." />
-            <marker date="1561137934921" expanded="true" signature="103:216" ph="{...}" />
-            <marker date="1561137934921" expanded="true" signature="129:214" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Singleton/Singleton.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Weather/WeatherRoot.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <marker date="1561133244947" expanded="false" signature="6:56" ph="..." />
-            <marker date="1561133244947" expanded="true" signature="93:231" ph="{...}" />
-            <marker date="1561133244947" expanded="true" signature="124:229" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Places/PlacesSingleton.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <marker date="1561139918088" expanded="true" signature="77:544" ph="{...}" />
-            <marker date="1561139918088" expanded="true" signature="112:542" ph="{...}" />
-            <marker date="1561139918088" expanded="true" signature="254:483" ph="{...}" />
-            <marker date="1561139918088" expanded="true" signature="281:473" ph="{...}" />
-            <marker date="1561139918088" expanded="true" signature="334:425" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApplication/Services/PlacesService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-          <folding>
-            <marker date="1561139818853" expanded="true" signature="6:199" ph="..." />
-            <marker date="1561139818853" expanded="true" signature="238:1418" ph="{...}" />
-            <marker date="1561139818853" expanded="true" signature="271:1416" ph="{...}" />
-            <marker date="1561139818853" expanded="true" signature="314:862" ph="{...}" />
-            <marker date="1561139818853" expanded="true" signature="480:539" ph="{...}" />
-            <marker date="1561139818853" expanded="true" signature="915:1410" ph="{...}" />
-            <marker date="1561139818853" expanded="true" signature="1112:1400" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ProfileApplication/Services/WeatherService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="336">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding>
             <marker date="1561133244924" expanded="true" signature="6:251" ph="..." />
             <marker date="1561133244924" expanded="true" signature="290:1140" ph="{...}" />
@@ -748,20 +633,138 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Weather/WeatherRoot.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1561133244947" expanded="false" signature="6:56" ph="..." />
+            <marker date="1561133244947" expanded="true" signature="93:231" ph="{...}" />
+            <marker date="1561133244947" expanded="true" signature="124:229" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApplication/app.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApplication/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApplication/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApplication/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <marker date="1561046611318" expanded="false" signature="6:255" ph="..." />
+            <marker date="1561046611318" expanded="true" signature="285:612" ph="{...}" />
+            <marker date="1561046611318" expanded="true" signature="312:610" ph="{...}" />
+            <marker date="1561046611318" expanded="true" signature="365:439" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApplication/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding>
+            <marker date="1561308269990" expanded="false" signature="6:402" ph="..." />
+            <marker date="1561308269990" expanded="true" signature="432:1760" ph="{...}" />
+            <marker date="1561308269990" expanded="true" signature="459:1758" ph="{...}" />
+            <marker date="1561308269990" expanded="true" signature="518:581" ph="{...}" />
+            <marker date="1561308269990" expanded="true" signature="804:1144" ph="{...}" />
+            <marker date="1561308269990" expanded="true" signature="998:1131" ph="{...}" />
+            <marker date="1561308269990" expanded="true" signature="1332:1752" ph="{...}" />
+            <marker date="1561308269990" expanded="true" signature="1379:1456" ph="{...}" />
+            <marker date="1561308269990" expanded="true" signature="1473:1676" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Locations/LocationsRoot.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <marker date="1561308640205" expanded="false" signature="6:59" ph="..." />
+            <marker date="1561308640205" expanded="true" signature="103:327" ph="{...}" />
+            <marker date="1561308640205" expanded="true" signature="136:325" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Locations/Locations.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <marker date="1561308640250" expanded="false" signature="6:59" ph="..." />
+            <marker date="1561308640250" expanded="true" signature="103:219" ph="{...}" />
+            <marker date="1561308640250" expanded="true" signature="132:217" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Locations/LocationsSingleton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <marker date="1561308640287" expanded="true" signature="77:562" ph="{...}" />
+            <marker date="1561308640287" expanded="true" signature="115:560" ph="{...}" />
+            <marker date="1561308640287" expanded="true" signature="266:498" ph="{...}" />
+            <marker date="1561308640287" expanded="true" signature="293:488" ph="{...}" />
+            <marker date="1561308640287" expanded="true" signature="346:440" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApplication/Services/LocationsService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="36" column="62" lean-forward="true" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+          <folding>
+            <marker date="1561308640325" expanded="false" signature="6:199" ph="..." />
+            <marker date="1561308640325" expanded="true" signature="238:1530" ph="{...}" />
+            <marker date="1561308640325" expanded="true" signature="274:1528" ph="{...}" />
+            <marker date="1561308640325" expanded="true" signature="317:940" ph="{...}" />
+            <marker date="1561308640325" expanded="true" signature="504:566" ph="{...}" />
+            <marker date="1561308640325" expanded="true" signature="999:1522" ph="{...}" />
+            <marker date="1561308640325" expanded="true" signature="1196:1512" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ProfileApplication/Controllers/ProfileController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        <state relative-caret-position="430">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
           <folding>
-            <marker date="1561140627747" expanded="true" signature="6:196" ph="..." />
-            <marker date="1561140627747" expanded="true" signature="238:1422" ph="{...}" />
-            <marker date="1561140627747" expanded="true" signature="338:1420" ph="{...}" />
-            <marker date="1561140627747" expanded="true" signature="633:708" ph="{...}" />
-            <marker date="1561140627747" expanded="true" signature="828:898" ph="{...}" />
-            <marker date="1561140627747" expanded="true" signature="1001:1049" ph="{...}" />
-            <marker date="1561140627747" expanded="true" signature="1146:1166" ph="{...}" />
-            <marker date="1561140627747" expanded="true" signature="1278:1298" ph="{...}" />
-            <marker date="1561140627747" expanded="true" signature="1394:1414" ph="{...}" />
+            <marker date="1561308659651" expanded="true" signature="6:229" ph="..." />
+            <marker date="1561308659651" expanded="true" signature="271:1499" ph="{...}" />
+            <marker date="1561308659651" expanded="true" signature="400:1497" ph="{...}" />
+            <marker date="1561308659651" expanded="true" signature="704:779" ph="{...}" />
+            <marker date="1561308659651" expanded="true" signature="902:975" ph="{...}" />
+            <marker date="1561308659651" expanded="true" signature="1078:1126" ph="{...}" />
+            <marker date="1561308659651" expanded="true" signature="1223:1243" ph="{...}" />
+            <marker date="1561308659651" expanded="true" signature="1355:1375" ph="{...}" />
+            <marker date="1561308659651" expanded="true" signature="1471:1491" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Weather/WeatherInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
+          <folding>
+            <marker date="1561327928845" expanded="true" signature="6:95" ph="..." />
+            <marker date="1561327928845" expanded="true" signature="132:3808" ph="{...}" />
+            <marker date="1561327928845" expanded="true" signature="163:3806" ph="{...}" />
           </folding>
         </state>
       </provider>

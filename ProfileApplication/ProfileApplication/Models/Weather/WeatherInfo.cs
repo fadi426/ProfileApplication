@@ -103,7 +103,7 @@ namespace ProfileApplication.Models
         public string SunChanceDay1{ get; set; }
 
         [JsonProperty("d2tmax")]
-        public string MaxTempDayADay2{ get; set; }
+        public string MaxTempDay2{ get; set; }
         
         [JsonProperty("d2tmin")]
         public string MinTempDay2{ get; set; }
@@ -123,9 +123,9 @@ namespace ProfileApplication.Models
         [JsonProperty("d2zon")]
         public string SunChanwceDay2{ get; set; }
         
-        public string alarm{ get; set; }
+        public string Alarm{ get; set; }
         
-        public string alarmtxt{ get; set; }
+        public string Alarmtxt{ get; set; }
 
     }
 }

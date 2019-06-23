@@ -3,12 +3,12 @@ using Newtonsoft.Json.Serialization;
 
 namespace ProfileApplication.Models.Places
 {
-    public class PlaceRoot
+    public class LocationsRoot
     {
         [JsonProperty("odata.metadata")]
         public string RootUrl { get; set; }
         
         [JsonProperty("value")]
-        public Places[] Places { get; set; }
+        public Locations[] Locations { get; set; }
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using ProfileApplication.Models;
 using ProfileApplication.Services;
@@ -9,11 +10,12 @@ using ProfileApplication.Services;
 namespace ProfileApplication.Controllers
 {
     [Route("api/profile")]
+    [EnableCors("MyPolicy")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
         private readonly WeatherService _weatherService = new WeatherService();
-        private readonly PlacesService _placesService = new PlacesService();
+        private readonly LocationsService _locationsService = new LocationsService();
 
         // GET api/profile/weather
         [HttpGet("weather/{id}")]
@@ -23,10 +25,10 @@ namespace ProfileApplication.Controllers
         }
         
         // GET api/profile/weather
-        [HttpGet("places")]
+        [HttpGet("locations")]
         public ActionResult<string> GetPlaces()
         {
-            return _placesService.GetPlaceInfo();
+            return _locationsService.GetPlaceInfo();
         }
 
         // GET api/values/5

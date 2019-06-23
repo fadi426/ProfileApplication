@@ -20,10 +20,10 @@
           </e>
         </e>
         <e p="Models" t="Include">
-          <e p="Places" t="Include">
-            <e p="PlaceRoot.cs" t="Include" />
-            <e p="Places.cs" t="Include" />
-            <e p="PlacesSingleton.cs" t="Include" />
+          <e p="Locations" t="Include">
+            <e p="Locations.cs" t="Include" />
+            <e p="LocationsRoot.cs" t="Include" />
+            <e p="LocationsSingleton.cs" t="Include" />
           </e>
           <e p="Weather" t="Include">
             <e p="WeatherInfo.cs" t="Include" />
@@ -43,7 +43,7 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Services" t="Include">
-          <e p="PlacesService.cs" t="Include" />
+          <e p="LocationsService.cs" t="Include" />
           <e p="WeatherService.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
