@@ -26,9 +26,16 @@ namespace ProfileApplication.Controllers
         
         // GET api/profile/weather
         [HttpGet("locations")]
-        public ActionResult<string> GetPlaces()
+        public ActionResult<string> GetLocations()
         {
-            return _locationsService.GetPlaceInfo();
+            return _locationsService.GetLocations();
+        }
+        
+        // GET api/profile/weather
+        [HttpGet("locations/{id}")]
+        public ActionResult<string> GetPlaces(string id)
+        {
+            return _locationsService.GetLocation(id);
         }
 
         // GET api/values/5
