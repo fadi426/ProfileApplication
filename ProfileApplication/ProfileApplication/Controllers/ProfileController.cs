@@ -17,25 +17,32 @@ namespace ProfileApplication.Controllers
         private readonly WeatherService _weatherService = new WeatherService();
         private readonly LocationsService _locationsService = new LocationsService();
 
-        // GET api/profile/weather
-        [HttpGet("weather/{id}")]
-        public ActionResult<string> GetWeatherInfo(string id)
-        {
-            return _weatherService.GetWeatherInfo(id);
-        }
-        
-        // GET api/profile/weather
+        // GET api/profile/locations
         [HttpGet("locations")]
         public ActionResult<string> GetLocations()
         {
             return _locationsService.GetLocations();
         }
         
-        // GET api/profile/weather
+        // GET api/profile/locations/(location)
         [HttpGet("locations/{id}")]
         public ActionResult<string> GetPlaces(string id)
         {
             return _locationsService.GetLocation(id);
+        }
+        
+        // GET api/profile/weather
+        [HttpGet("locations/{id}/weather")]
+        public ActionResult<string> GetWeatherInfo(string id)
+        {
+            return WeatherService.GetWeather(id);
+        }
+        
+        // GET api/profile/locations/)
+        [HttpGet("locations/{id}/news")]
+        public ActionResult<string> GetNews(string id)
+        {
+            return NewsService.GetNews(id);
         }
 
         // GET api/values/5

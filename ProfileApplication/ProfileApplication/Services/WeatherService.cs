@@ -12,20 +12,20 @@ namespace ProfileApplication.Services
 {
     public class WeatherService
     {
-        public string GetWeatherInfo(string location)
+        public static string GetWeather(string location)
         {
-            string urlHead = "http://weerlive.nl/api/json-data-10min.php?key=3e65790d54&locatie=";
+            const string urlHead = "http://weerlive.nl/api/json-data-10min.php?key=3e65790d54&locatie=";
             string fullUrl = urlHead + location;
             
             using (WebClient httpClient = new WebClient())
             {
                 string jsonData = httpClient.DownloadString(fullUrl);
                 WeatherRoot weatherRoot = JsonConvert.DeserializeObject<WeatherRoot>(jsonData);
-                WeatherInfo weatherInfo = weatherRoot.WeatherArr[0];
+                Weather weather = weatherRoot.WeatherArr[0];
                 
                 SerializationHelper serializationHelper = new SerializationHelper();
-                string serializedWeatherInfo = serializationHelper.Serialize(weatherInfo, true);
-                return serializedWeatherInfo;
+                string result = serializationHelper.Serialize(weather, true);
+                return result;
             }
         }
     }

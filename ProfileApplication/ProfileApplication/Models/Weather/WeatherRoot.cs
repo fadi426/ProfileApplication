@@ -6,6 +6,6 @@ namespace ProfileApplication.Models
     public class WeatherRoot
     {
         [JsonProperty("liveweer")]
-        public List<WeatherInfo> WeatherArr { get; set; }
+        public List<Weather> WeatherArr { get; set; }
     }
 }

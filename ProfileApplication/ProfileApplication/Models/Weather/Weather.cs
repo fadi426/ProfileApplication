@@ -4,7 +4,7 @@ using Newtonsoft.Json.Serialization;
 
 namespace ProfileApplication.Models
 {
-    public class WeatherInfo
+    public class Weather
     {
         [JsonProperty("plaats")]
         public string Location { get; set; }

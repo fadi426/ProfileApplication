@@ -30,9 +30,9 @@ namespace ProfileApplication.Services
             return serializedLocations;
         }
         
-        private List<Locations> GetLocationNames()
+        private static List<Locations> GetLocationNames()
         {
-            string fullUrl = "https://opendata.cbs.nl/ODataApi/OData/80477ned/PlaatsEnGemeentenamen";
+            const string fullUrl = "https://opendata.cbs.nl/ODataApi/OData/80477ned/PlaatsEnGemeentenamen";
             
             using (WebClient httpClient = new WebClient())
             {
@@ -46,13 +46,13 @@ namespace ProfileApplication.Services
 
         public string GetLocation(string location)
         {
-            string urlHead = "https://eu1.locationiq.com/v1/search.php?key=36a3bf33f47a91&q=";
-            string urlTail = "&format=json";
+            const string urlHead = "https://eu1.locationiq.com/v1/search.php?key=36a3bf33f47a91&q=";
+            const string urlTail = "&format=json";
             string fullUrl = urlHead + location + urlTail;
             using (WebClient httpClient = new WebClient())
             {
                 var nameString = "";
-                    string jsonData = httpClient.DownloadString(fullUrl);
+                string jsonData = httpClient.DownloadString(fullUrl);
                 dynamic jsonArr = JArray.Parse(jsonData);
                 nameString = jsonArr[0].display_name;
                 Location l = new Location();
@@ -66,7 +66,7 @@ namespace ProfileApplication.Services
             }
         }
 
-        private string FindProvince(string locationString)
+        private static string FindProvince(string locationString)
         {
             Regex regex = new Regex(@"(\b(\w+)\W*)?,?\W?(\b(\w+)\W*$)");
             Match match = regex.Match(locationString);

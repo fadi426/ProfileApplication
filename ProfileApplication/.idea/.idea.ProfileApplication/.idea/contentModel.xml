@@ -26,8 +26,12 @@
             <e p="LocationsRoot.cs" t="Include" />
             <e p="LocationsSingleton.cs" t="Include" />
           </e>
+          <e p="News" t="Include">
+            <e p="Article.cs" t="Include" />
+            <e p="News.cs" t="Include" />
+          </e>
           <e p="Weather" t="Include">
-            <e p="WeatherInfo.cs" t="Include" />
+            <e p="Weather.cs" t="Include" />
             <e p="WeatherRoot.cs" t="Include" />
           </e>
         </e>
@@ -45,6 +49,7 @@
         </e>
         <e p="Services" t="Include">
           <e p="LocationsService.cs" t="Include" />
+          <e p="NewsService.cs" t="Include" />
           <e p="WeatherService.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
