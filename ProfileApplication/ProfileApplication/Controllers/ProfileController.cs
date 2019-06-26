@@ -44,6 +44,13 @@ namespace ProfileApplication.Controllers
         {
             return NewsService.GetNews(id);
         }
+        
+        // GET api/profile/locations/)
+        [HttpGet("locations/{id}/events")]
+        public ActionResult<string> GetEvents(string id)
+        {
+            return EventService.GetEvents(id);
+        }
 
         // GET api/values/5
         [HttpGet("{id}")]

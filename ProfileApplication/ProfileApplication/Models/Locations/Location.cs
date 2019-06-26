@@ -6,5 +6,6 @@ namespace ProfileApplication.Models.Places
         public string Longitude { get; set; }
         public string Latitude { get; set; }
         public string Province { get; set; }
+        public string Country { get; set; }
     }
 }

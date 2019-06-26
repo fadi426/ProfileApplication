@@ -58,6 +58,7 @@ namespace ProfileApplication.Services
                 Location l = new Location();
                 l.Name = location;
                 l.Province = FindProvince(nameString);
+                l.Country = FindCountry(nameString);
                 l.Latitude = jsonArr[0].lat;
                 l.Longitude = jsonArr[0].lon;
 
@@ -68,11 +69,25 @@ namespace ProfileApplication.Services
 
         private static string FindProvince(string locationString)
         {
-            Regex regex = new Regex(@"(\b(\w+)\W*)?,?\W?(\b(\w+)\W*$)");
+            Regex regex = new Regex(@"(\w*)(,\W\d*)?(\W*)?,?\W?(\b(\w+)\W*$)");
+            Regex regexZip = new Regex(@"(\w*)(,\W\w*)(,\W\d*),?\W?(\b(\w+)\W*$)");
+            Match match;
+
+            if (!locationString.Any(char.IsDigit)){
+                match = regex.Match(locationString);
+                if (locationString.Contains(","))
+                    return match.Groups[1].Value;
+                return match.Groups[5].Value;
+            }
+            match = regexZip.Match(locationString);
+            return match.Groups[1].Value;
+        }
+        
+        private static string FindCountry(string locationString)
+        {
+            Regex regex = new Regex(@"(\w*$)");
             Match match = regex.Match(locationString);
-            if (locationString.Contains(","))
-                return match.Groups[2].Value;
-            return match.Groups[4].Value;
+            return match.Groups[1].Value;
         }
     }
 }
