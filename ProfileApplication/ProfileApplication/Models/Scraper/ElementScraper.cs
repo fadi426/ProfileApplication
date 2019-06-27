@@ -9,17 +9,15 @@ using ProfileApplication.Models.Events;
 
 namespace ProfileApplication.Helpers.Scraper
 {
-    public class Scraper
+    public class ElementScraper : Scraper
     {
-        public string Url { get; set;}
-        public string ClassName { get; set; }
-
-        public Scraper(string url, string className)
+        public ElementScraper(string url, string className)
         {
             this.Url = url;
             this.ClassName = className;
         }
-        public List<string> WebDataScraper()
+        
+        public override List<string> Scrape()
         {
             List<string> result = new List<string>();
             try
@@ -27,8 +25,7 @@ namespace ProfileApplication.Helpers.Scraper
                 //Get the content of the URL from the Web
                 var web = new HtmlWeb();
                 var doc = web.Load(Url);
-
-
+                
                 //Filter the content
                 doc.DocumentNode.Descendants()
                     .Where(n => n.Name == "script")
@@ -36,8 +33,7 @@ namespace ProfileApplication.Helpers.Scraper
                     .ForEach(n => n.Remove());
 
                 var nodes = doc.DocumentNode.SelectNodes($"//*[@class='{ClassName}']") ?? Enumerable.Empty<HtmlNode>();
-
-
+                
                 foreach (var node in nodes)
                 {
                     var splittedWords = Regex.Split(node.InnerText, "\n");

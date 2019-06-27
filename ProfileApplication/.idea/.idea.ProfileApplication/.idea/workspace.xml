@@ -2,27 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b644b165-2ed6-45f9-bf48-0b66c3f5159a" name="Default Changelist" comment="s">
-      <change afterPath="$PROJECT_DIR$/ProfileApplication/Helpers/Scraper/Scraper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProfileApplication/Models/Events/Event.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProfileApplication/Services/EventService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProfileApplication/Models/Movies/Movie.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProfileApplication/Models/Scraper/HrefScraper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProfileApplication/Models/Scraper/IScraper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProfileApplication/Models/Scraper/ImgScraper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProfileApplication/Models/Scraper/Scraper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProfileApplication/Services/MoviesService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProfileApplication/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProfileApplication/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProfileApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProfileApplication/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProfileApplication/Controllers/ProfileController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/Controllers/ProfileController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileApplication/Models/Locations/Location.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/Models/Locations/Location.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileApplication/ProfileApplication.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/ProfileApplication.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileApplication/Services/LocationsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/Services/LocationsService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileApplication/Services/NewsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/Services/NewsService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileApplication/bin/Debug/netcoreapp2.2/ProfileApplication.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/bin/Debug/netcoreapp2.2/ProfileApplication.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfileApplication/Helpers/Scraper/Scraper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/Models/Scraper/ElementScraper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfileApplication/Models/Events/Event.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/Models/Events/Event.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfileApplication/Services/EventService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/Services/EventService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProfileApplication/bin/Debug/netcoreapp2.2/ProfileApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/bin/Debug/netcoreapp2.2/ProfileApplication.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProfileApplication/bin/Debug/netcoreapp2.2/ProfileApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/bin/Debug/netcoreapp2.2/ProfileApplication.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileApplication/obj/Debug/netcoreapp2.2/ProfileApplication.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/obj/Debug/netcoreapp2.2/ProfileApplication.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProfileApplication/obj/Debug/netcoreapp2.2/ProfileApplication.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/obj/Debug/netcoreapp2.2/ProfileApplication.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileApplication/obj/Debug/netcoreapp2.2/ProfileApplication.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/obj/Debug/netcoreapp2.2/ProfileApplication.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProfileApplication/obj/Debug/netcoreapp2.2/ProfileApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/obj/Debug/netcoreapp2.2/ProfileApplication.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProfileApplication/obj/Debug/netcoreapp2.2/ProfileApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/obj/Debug/netcoreapp2.2/ProfileApplication.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileApplication/obj/ProfileApplication.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/obj/ProfileApplication.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileApplication/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileApplication/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApplication/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,66 +29,85 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProfileApplication/Controllers/ProfileController.cs">
+        <entry file="file://$PROJECT_DIR$/ProfileApplication/Services/MoviesService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+            <state relative-caret-position="432">
+              <caret line="39" selection-start-line="28" selection-end-line="39" />
               <folding>
-                <marker date="1561575314469" expanded="true" signature="6:229" ph="..." />
-                <marker date="1561575314469" expanded="true" signature="271:2156" ph="{...}" />
-                <marker date="1561575314469" expanded="true" signature="400:2154" ph="{...}" />
-                <marker date="1561575314469" expanded="true" signature="692:765" ph="{...}" />
-                <marker date="1561575314469" expanded="true" signature="915:989" ph="{...}" />
-                <marker date="1561575314469" expanded="true" signature="1139:1209" ph="{...}" />
-                <marker date="1561575314469" expanded="true" signature="1353:1417" ph="{...}" />
-                <marker date="1561575314469" expanded="true" signature="1565:1632" ph="{...}" />
-                <marker date="1561575314469" expanded="true" signature="1735:1783" ph="{...}" />
-                <marker date="1561575314469" expanded="true" signature="1880:1900" ph="{...}" />
-                <marker date="1561575314469" expanded="true" signature="2012:2032" ph="{...}" />
-                <marker date="1561575314469" expanded="true" signature="2128:2148" ph="{...}" />
+                <marker date="1561671569605" expanded="true" signature="6:213" ph="..." />
+                <marker date="1561671569605" expanded="true" signature="252:1636" ph="{...}" />
+                <marker date="1561671569605" expanded="true" signature="285:1634" ph="{...}" />
+                <marker date="1561671569605" expanded="true" signature="347:1628" ph="{...}" />
+                <marker date="1561671569605" expanded="true" signature="1105:1522" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProfileApplication/Services/WeatherService.cs">
+        <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Scraper/IScraper.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+            <state relative-caret-position="128">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding>
-                <marker date="1561495618544" expanded="true" signature="6:251" ph="..." />
-                <marker date="1561495618544" expanded="true" signature="290:1107" ph="{...}" />
-                <marker date="1561495618544" expanded="true" signature="324:1105" ph="{...}" />
-                <marker date="1561495618544" expanded="true" signature="387:1099" ph="{...}" />
-                <marker date="1561495618544" expanded="true" signature="636:1089" ph="{...}" />
+                <marker date="1561636875068" expanded="false" signature="6:47" ph="..." />
+                <marker date="1561636875068" expanded="true" signature="93:170" ph="{...}" />
+                <marker date="1561636875068" expanded="true" signature="125:168" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/News/News.cs">
+        <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Scraper/HrefScraper.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+            <state relative-caret-position="382">
+              <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
               <folding>
-                <marker date="1561494929104" expanded="true" signature="40:172" ph="{...}" />
-                <marker date="1561494929104" expanded="true" signature="64:170" ph="{...}" />
+                <marker date="1561653482287" expanded="false" signature="6:180" ph="..." />
+                <marker date="1561653482287" expanded="true" signature="226:1664" ph="{...}" />
+                <marker date="1561653482287" expanded="true" signature="267:1662" ph="{...}" />
+                <marker date="1561653482287" expanded="true" signature="330:418" ph="{...}" />
+                <marker date="1561653482287" expanded="true" signature="473:1656" ph="{...}" />
+                <marker date="1561653482287" expanded="true" signature="553:1486" ph="{...}" />
+                <marker date="1561653482287" expanded="true" signature="1221:1420" ph="{...}" />
+                <marker date="1561653482287" expanded="true" signature="1287:1402" ph="{...}" />
+                <marker date="1561653482287" expanded="true" signature="1504:1619" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Weather/WeatherRoot.cs">
+        <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Scraper/ImgScraper.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="334">
+              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
               <folding>
-                <marker date="1561494616979" expanded="false" signature="6:56" ph="..." />
-                <marker date="1561494616979" expanded="true" signature="93:227" ph="{...}" />
-                <marker date="1561494616979" expanded="true" signature="124:225" ph="{...}" />
+                <marker date="1561672304224" expanded="true" signature="6:89" ph="..." />
+                <marker date="1561672304224" expanded="true" signature="135:1359" ph="{...}" />
+                <marker date="1561672304224" expanded="true" signature="175:1357" ph="{...}" />
+                <marker date="1561672304224" expanded="true" signature="237:325" ph="{...}" />
+                <marker date="1561672304224" expanded="true" signature="372:1351" ph="{...}" />
+                <marker date="1561672304224" expanded="true" signature="452:1181" ph="{...}" />
+                <marker date="1561672304224" expanded="true" signature="1011:1135" ph="{...}" />
+                <marker date="1561672304224" expanded="true" signature="1199:1314" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProfileApplication/Services/EventService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+              <folding>
+                <marker date="1561672487453" expanded="true" signature="6:214" ph="..." />
+                <marker date="1561672487453" expanded="true" signature="253:2238" ph="{...}" />
+                <marker date="1561672487453" expanded="true" signature="285:2236" ph="{...}" />
+                <marker date="1561672487453" expanded="true" signature="347:2230" ph="{...}" />
+                <marker date="1561672487453" expanded="true" signature="1121:2124" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -101,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProfileApplication/Services/NewsService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
+            <state relative-caret-position="240">
               <caret line="20" selection-start-line="20" selection-end-line="21" selection-end-column="30" />
               <folding>
                 <marker date="1561550896634" expanded="true" signature="6:92" ph="..." />
@@ -117,56 +132,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProfileApplication/Services/LocationsService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
-              <caret line="24" column="80" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="80" />
+            <state relative-caret-position="33">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
               <folding>
-                <marker date="1561568263871" expanded="true" signature="6:279" ph="..." />
-                <marker date="1561568263871" expanded="true" signature="318:3479" ph="{...}" />
-                <marker date="1561568263871" expanded="true" signature="354:3477" ph="{...}" />
-                <marker date="1561568263871" expanded="true" signature="397:1020" ph="{...}" />
-                <marker date="1561568263871" expanded="true" signature="584:646" ph="{...}" />
-                <marker date="1561568263871" expanded="true" signature="1087:1616" ph="{...}" />
-                <marker date="1561568263871" expanded="true" signature="1290:1606" ph="{...}" />
-                <marker date="1561568263871" expanded="true" signature="1668:2596" ph="{...}" />
-                <marker date="1561568263871" expanded="true" signature="1961:2586" ph="{...}" />
-                <marker date="1561568263871" expanded="true" signature="2663:3232" ph="{...}" />
-                <marker date="1561568263871" expanded="true" signature="2914:3128" ph="{...}" />
-                <marker date="1561568263871" expanded="true" signature="3306:3471" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ProfileApplication/Services/EventService.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
-              <folding>
-                <marker date="1561589362274" expanded="true" signature="6:214" ph="..." />
-                <marker date="1561589362274" expanded="true" signature="253:1622" ph="{...}" />
-                <marker date="1561589362274" expanded="true" signature="285:1620" ph="{...}" />
-                <marker date="1561589362274" expanded="true" signature="347:1614" ph="{...}" />
-                <marker date="1561589362274" expanded="true" signature="923:1507" ph="{...}" />
+                <marker date="1561645793783" expanded="true" signature="6:279" ph="..." />
+                <marker date="1561645793783" expanded="true" signature="318:3479" ph="{...}" />
+                <marker date="1561645793783" expanded="true" signature="354:3477" ph="{...}" />
+                <marker date="1561645793783" expanded="true" signature="397:1020" ph="{...}" />
+                <marker date="1561645793783" expanded="true" signature="584:646" ph="{...}" />
+                <marker date="1561645793783" expanded="true" signature="1087:1616" ph="{...}" />
+                <marker date="1561645793783" expanded="true" signature="1290:1606" ph="{...}" />
+                <marker date="1561645793783" expanded="true" signature="1668:2596" ph="{...}" />
+                <marker date="1561645793783" expanded="true" signature="1961:2586" ph="{...}" />
+                <marker date="1561645793783" expanded="true" signature="2663:3232" ph="{...}" />
+                <marker date="1561645793783" expanded="true" signature="2914:3128" ph="{...}" />
+                <marker date="1561645793783" expanded="true" signature="3306:3471" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProfileApplication/Helpers/Scraper/Scraper.cs">
+        <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Scraper/ElementScraper.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+            <state relative-caret-position="13">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding>
-                <marker date="1561589362223" expanded="true" signature="6:228" ph="..." />
-                <marker date="1561589362223" expanded="true" signature="274:1736" ph="{...}" />
-                <marker date="1561589362223" expanded="true" signature="301:1734" ph="{...}" />
-                <marker date="1561589362223" expanded="true" signature="446:534" ph="{...}" />
-                <marker date="1561589362223" expanded="true" signature="579:1728" ph="{...}" />
-                <marker date="1561589362223" expanded="true" signature="659:1558" ph="{...}" />
-                <marker date="1561589362223" expanded="true" signature="1195:1544" ph="{...}" />
-                <marker date="1561589362223" expanded="true" signature="1576:1691" ph="{...}" />
+                <marker date="1561638261297" expanded="true" signature="6:228" ph="..." />
+                <marker date="1561638261297" expanded="true" signature="274:1714" ph="{...}" />
+                <marker date="1561638261297" expanded="true" signature="318:1712" ph="{...}" />
+                <marker date="1561638261297" expanded="true" signature="384:472" ph="{...}" />
+                <marker date="1561638261297" expanded="true" signature="527:1706" ph="{...}" />
+                <marker date="1561638261297" expanded="true" signature="607:1536" ph="{...}" />
+                <marker date="1561638261297" expanded="true" signature="1173:1522" ph="{...}" />
+                <marker date="1561638261297" expanded="true" signature="1554:1669" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -175,282 +174,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Events/Event.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            <state relative-caret-position="48">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding>
-                <marker date="1561588133548" expanded="true" signature="42:290" ph="{...}" />
-                <marker date="1561588133548" expanded="true" signature="67:288" ph="{...}" />
+                <marker date="1561647052729" expanded="true" signature="42:386" ph="{...}" />
+                <marker date="1561647052729" expanded="true" signature="67:384" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0C46AE1D-6A61-4930-9A91-34D41BD0AD56/53/4ab6ae19/WebScraper.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Movies/Movie.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="1317" column="6" selection-start-line="1317" selection-start-column="6" selection-end-line="1317" selection-end-column="6" />
+            <state relative-caret-position="96">
+              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
               <folding>
-                <marker date="1561578699752" expanded="true" signature="0:312" ph="/* Decompiled with JetBrains decompiler ... */" />
-                <marker date="1561578699752" expanded="false" signature="320:703" ph="..." />
-                <marker date="1561578699752" expanded="true" signature="729:68954" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="734:998" ph="/// A base class which developers can extend to build custom web-scraping applications. ... " />
-                <marker date="1561578699752" expanded="true" signature="1033:68952" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="1230:1352" ph="/// Path to a local directory where scraped data and state information will be saved. ... " />
-                <marker date="1561578699752" expanded="true" signature="1592:1983" ph="/// The level of  logging made by the WebScraper engine to the Console. ... " />
-                <marker date="1561578699752" expanded="true" signature="2464:2512" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="2646:2844" ph="/// Rate at which the webscraper's crawl state will be Auto-saved  (for crash recovery) when it is started with a ... " />
-                <marker date="1561578699752" expanded="true" signature="3015:3168" ph="/// Causes the WebScraper to always obey /robots.txt directives including url and path restrictions and crawl rat ... " />
-                <marker date="1561578699752" expanded="true" signature="3214:3598" ph="/// A list of http identities to be used to fetch web resources. ... " />
-                <marker date="1561578699752" expanded="true" signature="3672:3865" ph="/// If not empty, all requested Urls must match at least one of the AllowedUrls patterns. ... " />
-                <marker date="1561578699752" expanded="true" signature="3954:4135" ph="/// If not empty, no requested Urls may match any of the BannedUrls patterns. ... " />
-                <marker date="1561578699752" expanded="true" signature="4223:4429" ph="/// If not empty, all requested Urls' hostname must match at least one of the AllowedDomains patterns. ... " />
-                <marker date="1561578699752" expanded="true" signature="4521:4715" ph="/// If not empty, no requested Urls' hostname may match any of the BannedDomains patterns. ... " />
-                <marker date="1561578699752" expanded="true" signature="4887:5026" ph="/// The total number of files downloaded successfully with the DownloadImage and DownloadFile methods. ... " />
-                <marker date="1561578699752" expanded="true" signature="5420:6137" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="5807:6071" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="6090:6131" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="6143:6328" ph="/// Caches web http responses for reuse. This allows WebScraper classes to be modified and restarted without re-d ... " />
-                <marker date="1561578699752" expanded="true" signature="6361:6462" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="6468:6740" ph="/// Caches web http responses for reuse. This allows WebScraper classes to be modified and restarted without re-d ... " />
-                <marker date="1561578699752" expanded="true" signature="6795:6909" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="6915:8252" ph="/// Requests a file to be downloaded from the given Url to the local file-system.  Often used for scraping docume ... " />
-                <marker date="1561578699752" expanded="true" signature="8442:8552" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="8558:9895" ph="/// Requests a file to be downloaded from the given Url to the local file-system.  Often used for scraping docume ... " />
-                <marker date="1561578699752" expanded="true" signature="10088:11182" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="10337:10568" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="11188:12243" ph="/// Requests a file to be downloaded from the given Url to the local file-system.  Often used for scraping docume ... " />
-                <marker date="1561578699752" expanded="true" signature="12383:12471" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="12477:13046" ph="/// Much like DownloadFile except if the file has already been downloaded or exists locally, it will not be re-do ... " />
-                <marker date="1561578699752" expanded="true" signature="13146:13675" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="13316:13547" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="13681:14736" ph="/// Requests a file to be downloaded from the given Url to the local file-system.  Often used for scraping docume ... " />
-                <marker date="1561578699752" expanded="true" signature="14879:15701" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="15049:15280" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="15707:15864" ph="/// Internal method to parse images downloaded by a webScraper. ... " />
-                <marker date="1561578699752" expanded="true" signature="15986:17314" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="16382:16814" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="16485:16806" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="16629:16796" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="16860:17308" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="16880:17228" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="17251:17262" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="17320:17483" ph="/// Internal method to parse binary files downloaded by a webScraper. ... " />
-                <marker date="1561578699752" expanded="true" signature="17600:18270" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="17772:18264" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="17792:18184" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="18207:18218" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="18349:18789" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="18844:19672" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="18883:19643" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="19241:19363" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="19757:20474" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="20108:20178" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="20189:20309" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="20528:21267" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="20874:21253" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="20898:21152" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="21039:21103" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="21183:21243" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="21319:21916" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="21595:21902" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="21619:21801" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="21718:21768" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="21832:21892" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="21971:22954" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="22207:22420" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="22280:22412" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="22776:22940" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="22992:23831" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="23279:23817" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="23344:23807" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="23875:24047" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="23941:23998" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="24025:24041" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="24053:24329" ph="/// Override this method to create the default Response handler for your web scraper. ... " />
-                <marker date="1561578699752" expanded="true" signature="24386:24592" ph="/// Override this method initialize your web-scraper. ... " />
-                <marker date="1561578699752" expanded="true" signature="24631:24767" ph="/// Gets the number of successful http downloads using the DownloadFile and DownloadImage methods.. ... " />
-                <marker date="1561578699752" expanded="true" signature="24810:24982" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="24826:24891" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="24910:24976" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="25096:25258" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="25112:25172" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="25191:25252" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="25264:25403" ph="/// Gets the number of failed http requests which have exceeded their total maximum number of retries. ... " />
-                <marker date="1561578699752" expanded="true" signature="25429:25567" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="25445:25493" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="25512:25561" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="25573:25959" ph="/// A handy shortcut method that fetches the text content from any Url (synchronously) as a binary data in a byye ... " />
-                <marker date="1561578699752" expanded="true" signature="26042:26123" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="26129:26474" ph="/// A handy shortcut method that fetches the text content from any Url (synchronously). ... " />
-                <marker date="1561578699752" expanded="true" signature="26558:26639" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="26724:27842" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="26776:26866" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="27209:27285" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="27438:27765" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="27562:27757" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="27792:27808" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="27848:28069" ph="/// Causes the WebScraper to always obey /robots.txt directives including path restrictions and crawl rates on a  ... " />
-                <marker date="1561578699752" expanded="true" signature="28130:28577" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="28185:28535" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="28583:29088" ph="/// Picks a random identity from WebScraper.Identities for each request. ... " />
-                <marker date="1561578699752" expanded="true" signature="29162:29358" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="29364:29726" ph="/// Logs the specified message to the console. ... " />
-                <marker date="1561578699752" expanded="true" signature="29796:30145" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="30151:30294" ph="/// Decides if the WebScraper will accept a given url.  My be overridden to apply custom middleware logic. ... " />
-                <marker date="1561578699752" expanded="true" signature="30340:31872" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="30425:30570" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="30757:30914" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="31064:31220" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="31384:31544" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="31878:32114" ph="///Set a throttle limit for a specific domain ... " />
-                <marker date="1561578699752" expanded="true" signature="32197:32451" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="32457:32918" ph="/// Retrieves native C## objects which were saved using the WebScraper.Scrape method in the JsonLines format. ... " />
-                <marker date="1561578699752" expanded="true" signature="32975:33047" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="33053:33356" ph="/// Retrieves IronWebScraper.ScrapedData objects which were saved using the WebScraper.Scrape method. ... " />
-                <marker date="1561578699752" expanded="true" signature="33420:33502" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="33508:33879" ph="/// Retrieves IronWebScraper.ScrapedData objects which were saved using the WebScraper.Scrape method. ... " />
-                <marker date="1561578699752" expanded="true" signature="33988:34065" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="34071:34600" ph="/// Retrieves native C## objects which were saved using the WebScraper.Scrape method in the JsonLines format. ... " />
-                <marker date="1561578699752" expanded="true" signature="34689:35910" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="35006:35865" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="35082:35857" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="35106:35227" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="35259:35847" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="35351:35835" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="35383:35512" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="35548:35821" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="35916:36328" ph="/// Appends any scraped data to a file in the JsonLines format. (1 json object per line). ... " />
-                <marker date="1561578699752" expanded="true" signature="36388:36443" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="36449:36915" ph="/// Appends scraped data to a file in the JsonLines format. (1 json object per line).  Automatically ignores dupl ... " />
-                <marker date="1561578699752" expanded="true" signature="36981:37035" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="37104:39257" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="37461:38267" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="37531:38046" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="37651:38034" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="37739:38020" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="37816:38004" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="38585:39243" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="38649:38833" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="38758:38796" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="38868:39221" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="38914:38969" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="38988:39207" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="39263:39470" ph="///   Retries a Response. ... " />
-                <marker date="1561578699752" expanded="true" signature="39511:39572" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="39578:40096" ph="/// A key method called from with the Init and Parse Methods.  Request adds new requests to the scrape-job queue, ... " />
-                <marker date="1561578699752" expanded="true" signature="40178:40259" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="40265:40760" ph="/// Request adds a new request to the scrape-job queue using the POST http method. ... " />
-                <marker date="1561578699752" expanded="true" signature="40893:41209" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="41215:41860" ph="/// Request adds a new request to the scrape-job queue using the POST http method. ... " />
-                <marker date="1561578699752" expanded="true" signature="42018:42327" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="42333:43151" ph="/// Request adds a new request to the scrape-job queue using the POST http method. ... " />
-                <marker date="1561578699752" expanded="true" signature="43352:43650" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="43656:44151" ph="/// Request adds a new request to the scrape-job queue using the POST http method. ... " />
-                <marker date="1561578699752" expanded="true" signature="44281:44356" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="44362:45007" ph="/// Request adds a new request to the scrape-job queue using the POST http method. ... " />
-                <marker date="1561578699752" expanded="true" signature="45162:45247" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="45253:46071" ph="/// Request adds a new request to the scrape-job queue using the POST http method. ... " />
-                <marker date="1561578699752" expanded="true" signature="46269:46364" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="46370:46879" ph="/// A key method called from with the Init and Parse Methods.  Request adds a new request to the scrape-job queue ... " />
-                <marker date="1561578699752" expanded="true" signature="46947:47067" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="47073:47732" ph="/// A key method called from with the Init and Parse Methods.  Request adds a new request to the scrape-job queue ... " />
-                <marker date="1561578699752" expanded="true" signature="47819:47932" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="47938:48762" ph="/// A key method called from with the Init and Parse Methods.  Request adds a new request to the scrape-job queue ... " />
-                <marker date="1561578699752" expanded="true" signature="48911:49013" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="49019:49528" ph="/// A key method called from with the Init and Parse Methods.  Request adds a new request to the scrape-job queue ... " />
-                <marker date="1561578699752" expanded="true" signature="49593:49649" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="49655:50314" ph="/// A key method called from with the Init and Parse Methods.  Request adds a new request to the scrape-job queue ... " />
-                <marker date="1561578699752" expanded="true" signature="50398:50464" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="50470:51294" ph="/// A key method called from with the Init and Parse Methods.  Request adds a new request to the scrape-job queue ... " />
-                <marker date="1561578699752" expanded="true" signature="51440:51516" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="51721:54620" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="51932:52056" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="52067:54614" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="52353:52500" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="52513:54606" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="52576:52712" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="52745:52847" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="52879:52944" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="52959:53149" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="53504:54202" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="53597:54190" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="53994:54176" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="54231:54415" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="54430:54596" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="54670:55168" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="54864:55114" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="55206:55743" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="55562:55659" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="55686:55737" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="55771:55846" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="55787:55840" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="55897:56147" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="56153:56349" ph="/// Stops this WebScraper instance graceful. ... " />
-                <marker date="1561578699752" expanded="true" signature="56372:56649" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="56655:56843" ph="/// Starts the WebScraper Asynchronously.  Set CrawlId to  make this crawl resumable. Will resume a previous scra ... " />
-                <marker date="1561578699752" expanded="true" signature="56899:57333" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="57221:57327" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="57339:57847" ph="/// Starts the WebScraper. ... " />
-                <marker date="1561578699752" expanded="true" signature="57892:58116" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="58029:58110" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="58158:61091" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="58515:58607" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="59057:59869" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="59916:60282" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="60873:60982" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="60886:60940" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="60963:60974" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="61097:61207" ph="/// Gets or sets the total number of allowed open HTTP requests (threads) ... " />
-                <marker date="1561578699752" expanded="true" signature="61262:61529" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="61278:61339" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="61349:61523" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="61535:61907" ph="/// Makes the WebSraper intelligently throttle requests not only by hostname, but also by host servers' IP addres ... " />
-                <marker date="1561578699752" expanded="true" signature="61968:62242" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="61984:62124" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="62134:62236" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="62248:62379" ph="/// Gets or sets minimum polite delay (pause) between request to a given domain or IP address. ... " />
-                <marker date="1561578699752" expanded="true" signature="62433:62600" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="62449:62516" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="62526:62594" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="62606:62770" ph="/// Gets or the time after-which a HTTP request will be considered failed or lost. ... " />
-                <marker date="1561578699752" expanded="true" signature="62819:62958" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="62835:62888" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="62898:62952" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="62964:63127" ph="/// The number of times WebScraper will retry a failed URL (normally with a new identity) before considering it n ... " />
-                <marker date="1561578699752" expanded="true" signature="63177:63326" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="63193:63251" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="63261:63320" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="63332:63523" ph="/// Gets or sets the allowed number of concurrent HTTP requests (threads) per hostname or IP address.  This helps ... " />
-                <marker date="1561578699752" expanded="true" signature="63582:63749" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="63598:63665" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="63675:63743" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="63782:65932" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="63949:64968" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="64152:64444" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="64197:64434" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="64473:64493" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="64540:64787" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="65041:65432" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="65504:65924" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="65969:67232" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="66018:66476" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="66126:66468" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="66204:66458" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="66534:66715" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="66763:67226" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="66849:67218" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="66927:67208" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="67238:67447" ph="/// Level of WebScraper logging to the Console. ... " />
-                <marker date="1561578699752" expanded="true" signature="67484:68514" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="67550:67687" ph="/// Logs critical events such as permanently irretrievable page failures and system information. ... " />
-                <marker date="1561578699752" expanded="true" signature="67714:67962" ph="/// Logs data which has been extracted, in a JSON format. ... " />
-                <marker date="1561578699752" expanded="true" signature="67992:68138" ph="/// Logs HTTP request success and failures ... " />
-                <marker date="1561578699752" expanded="true" signature="68161:68311" ph="/// Logs about decisions made by the crawler. ... " />
-                <marker date="1561578699752" expanded="true" signature="68338:68440" ph="/// All events are logged to the console.  Extremely verbose; ... " />
-                <marker date="1561578699752" expanded="true" signature="68520:68634" ph="/// Throttle remote clients by their host name or by their public IP address. ... " />
-                <marker date="1561578699752" expanded="true" signature="68659:68948" ph="{...}" />
-                <marker date="1561578699752" expanded="true" signature="68672:68829" ph="/// Identify unique hosts by resolving the IP address for each host in-case multiple host names share an IP addre ... " />
+                <marker date="1561650655778" expanded="true" signature="42:209" ph="{...}" />
+                <marker date="1561650655778" expanded="true" signature="67:207" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -467,6 +208,10 @@
       <find>place</find>
       <find>maxTemp</find>
       <find>info</find>
+      <find>Root</find>
+      <find>event</find>
+      <find>result</find>
+      <find>select</find>
     </findStrings>
     <replaceStrings>
       <replace>PlacesSingleton</replace>
@@ -477,21 +222,21 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProfileApplication/Services/NewsService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/News/News.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0C46AE1D-6A61-4930-9A91-34D41BD0AD56/53/4ab6ae19/WebScraper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProfileApplication/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProfileApplication/app.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/Events/Event.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProfileApplication/Helpers/Scraper/Scraper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/Weather/WeatherRoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProfileApplication/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProfileApplication/Services/WeatherService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProfileApplication/Controllers/ProfileController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/Locations/LocationsSingleton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/9e/2e2f2ab0/ObjectMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/News/Article.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/Weather/Weather.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProfileApplication/Services/EventService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/Locations/Location.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/Locations/LocationsRoot.cs" root0="FORCE_HIGHLIGHTING" />
@@ -501,6 +246,33 @@
     <setting file="file://$PROJECT_DIR$/ProfileApplication/Helpers/SerializeHelper/SerializationHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProfileApplication/Helpers/SerializeHelper/LongNameContractResolver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProfileApplication/Services/NewsService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/News/News.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0C46AE1D-6A61-4930-9A91-34D41BD0AD56/53/4ab6ae19/WebScraper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/Events/Event.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/Scraper/ElementScraper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/Scraper/HrefScraper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/Weather/WeatherRoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/Scraper/IScraper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/Scraper/Scraper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/Scraper/ImgScraper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/Movies/Movie.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProfileApplication/Services/MoviesService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProfileApplication/Services/WeatherService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProfileApplication/Controllers/ProfileController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProfileApplication/Models/Weather/Weather.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A2DDBDA9-1E09-414A-801B-36BA566856C2/c2/8f6bad2b/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -535,10 +307,20 @@
         <option value="$PROJECT_DIR$/ProfileApplication/Services/WeatherService.cs" />
         <option value="$PROJECT_DIR$/ProfileApplication/Models/Locations/Location.cs" />
         <option value="$PROJECT_DIR$/ProfileApplication/Services/NewsService.cs" />
-        <option value="$PROJECT_DIR$/ProfileApplication/Services/LocationsService.cs" />
-        <option value="$PROJECT_DIR$/ProfileApplication/Controllers/ProfileController.cs" />
-        <option value="$PROJECT_DIR$/ProfileApplication/Models/Events/Event.cs" />
+        <option value="$PROJECT_DIR$/ProfileApplication/Helpers/Scraper/IScraper.cs" />
+        <option value="$PROJECT_DIR$/ProfileApplication/Helpers/Scraper/Class1.cs" />
         <option value="$PROJECT_DIR$/ProfileApplication/Helpers/Scraper/Scraper.cs" />
+        <option value="$PROJECT_DIR$/ProfileApplication/Helpers/Scraper/ElementScraper.cs" />
+        <option value="$PROJECT_DIR$/ProfileApplication/Helpers/Scraper/HrefScraper.cs" />
+        <option value="$PROJECT_DIR$/ProfileApplication/Models/Scraper/Scraper.cs" />
+        <option value="$PROJECT_DIR$/ProfileApplication/Services/LocationsService.cs" />
+        <option value="$PROJECT_DIR$/ProfileApplication/Models/Events/Event.cs" />
+        <option value="$PROJECT_DIR$/ProfileApplication/Models/Movies/Movie.cs" />
+        <option value="$PROJECT_DIR$/ProfileApplication/Services/MovieService.cs" />
+        <option value="$PROJECT_DIR$/ProfileApplication/Controllers/ProfileController.cs" />
+        <option value="$PROJECT_DIR$/ProfileApplication/Models/Scraper/HrefScraper.cs" />
+        <option value="$PROJECT_DIR$/ProfileApplication/Services/MoviesService.cs" />
+        <option value="$PROJECT_DIR$/ProfileApplication/Models/Scraper/ImgScraper.cs" />
         <option value="$PROJECT_DIR$/ProfileApplication/Services/EventService.cs" />
       </list>
     </option>
@@ -551,7 +333,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1162" />
+    <option name="x" value="-36" />
+    <option name="y" value="10" />
     <option name="width" value="1331" />
     <option name="height" value="1087" />
   </component>
@@ -561,6 +344,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
@@ -578,54 +362,21 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="ProfileApplication" type="24d0babc:SolutionExplorerModelNode" />
               <item name="ProfileApplication" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="ProfileApplication" type="24d0babc:SolutionExplorerModelNode" />
               <item name="ProfileApplication" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Helpers" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Movies" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="ProfileApplication" type="24d0babc:SolutionExplorerModelNode" />
               <item name="ProfileApplication" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Helpers" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Scraper" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ProfileApplication" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ProfileApplication" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ProfileApplication" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ProfileApplication" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Events" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ProfileApplication" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ProfileApplication" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Locations" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ProfileApplication" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ProfileApplication" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="News" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ProfileApplication" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ProfileApplication" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Weather" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
@@ -638,7 +389,6 @@
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -710,6 +460,8 @@
       <workItem from="1561388801146" duration="8245000" />
       <workItem from="1561467145129" duration="6860000" />
       <workItem from="1561546054179" duration="23284000" />
+      <workItem from="1561632328496" duration="19800000" />
+      <workItem from="1561661051045" duration="11646000" />
     </task>
     <task id="LOCAL-00001" summary="Added place functionallity, including models, service and end-point">
       <created>1561141170530</created>
@@ -722,7 +474,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77714000" />
+    <option name="totallyTimeSpent" value="109160000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -734,16 +486,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1162" y="0" width="1331" height="1087" extended-state="0" />
+    <frame x="-36" y="10" width="1331" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14634146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15106216" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.29815573" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39856556" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.31045082" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32958034" />
@@ -781,59 +533,88 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="LaunchSettings">
+        <watch expression="hrefList.Items[0]" />
+        <watch expression="hrefList.Items[1]" />
+        <watch expression="hrefList.Items[23]" />
+        <watch expression="hrefList.Items[22]" />
+        <watch expression="hrefList.Items[7]" />
+        <watch expression="hrefList.Items[6]" />
+        <watch expression="hrefList.Items[9]" />
+        <watch expression="hrefList.Items[5]" />
+        <watch expression="hrefList.Items[16]" />
+        <watch expression="hrefList.Items[13]" />
+        <watch expression="hrefList.Items[20]" />
+        <watch expression="hrefList.Items[14]" />
+        <watch expression="hrefList.Items[4]" />
+        <watch expression="hrefList.Items[3]" />
+        <watch expression="hrefList.Items[12]" />
+        <watch expression="hrefList.Items[18]" />
+        <watch expression="hrefList.Items[8]" />
+        <watch expression="hrefList.Items[10]" />
+        <watch expression="hrefList.Items[17]" />
+        <watch expression="hrefList.Items[11]" />
+        <watch expression="hrefList.Items[15]" />
+        <watch expression="hrefList.Items[21]" />
+        <watch expression="hrefList.Items[19]" />
+        <watch expression="hrefList.Items[2]" />
+        <watch expression="imgList.Items[6]" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>web.Load(url)</expression-string>
+        <expression-string>node.SelectSingleNode(&quot;img&quot;).GetAttributeValue(&quot;src&quot;,&quot;&quot;)</expression-string>
         <language-id>C#</language-id>
         <custom-info>RiderImportsList:</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>document.QuerySelectorAll(&quot;p&quot;)</expression-string>
+        <expression-string>nodes</expression-string>
         <language-id>C#</language-id>
         <custom-info>RiderImportsList:</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>FindProvince(hoi)</expression-string>
+        <expression-string>node.SelectSingleNode(&quot;img&quot;).GetAttributeValue(&quot;src&quot;,&quot;nothing&quot;)</expression-string>
         <language-id>C#</language-id>
         <custom-info>RiderImportsList:</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>jsonArr.display_name</expression-string>
+        <expression-string>node.SelectSingleNode(&quot;img&quot;).GetAttributeValue(&quot;src&quot;,&quot;nothing&quot;))</expression-string>
         <language-id>C#</language-id>
         <custom-info>RiderImportsList:</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>jsonArr</expression-string>
+        <expression-string>node.SelectSingleNode(&quot;img&quot;)</expression-string>
         <language-id>C#</language-id>
         <custom-info>RiderImportsList:</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>jsonArr[0]</expression-string>
+        <expression-string>node.SelectSingleNode(&quot;\\img&quot;)</expression-string>
         <language-id>C#</language-id>
         <custom-info>RiderImportsList:</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>The best overloaded method match for 'System.Text.RegularExpressions.Regex.Match(string)' has some invalid arguments</expression-string>
+        <expression-string>node.GetAttributeValue(&quot;//img@src&quot;,&quot;nothing&quot;)</expression-string>
         <language-id>C#</language-id>
         <custom-info>RiderImportsList:</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>locationArray.display_name</expression-string>
+        <expression-string>node.GetAttributeValue(&quot;img//src&quot;,&quot;nothing&quot;)</expression-string>
         <language-id>C#</language-id>
         <custom-info>RiderImportsList:</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>_placesArr != null</expression-string>
+        <expression-string>node.GetAttributeValue(&quot;img/src&quot;,&quot;nothing&quot;)</expression-string>
         <language-id>C#</language-id>
         <custom-info>RiderImportsList:</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -1047,34 +828,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApplication/Controllers/ProfileController.cs">
+    <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/News/News.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+        <state relative-caret-position="32">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
           <folding>
-            <marker date="1561575314469" expanded="true" signature="6:229" ph="..." />
-            <marker date="1561575314469" expanded="true" signature="271:2156" ph="{...}" />
-            <marker date="1561575314469" expanded="true" signature="400:2154" ph="{...}" />
-            <marker date="1561575314469" expanded="true" signature="692:765" ph="{...}" />
-            <marker date="1561575314469" expanded="true" signature="915:989" ph="{...}" />
-            <marker date="1561575314469" expanded="true" signature="1139:1209" ph="{...}" />
-            <marker date="1561575314469" expanded="true" signature="1353:1417" ph="{...}" />
-            <marker date="1561575314469" expanded="true" signature="1565:1632" ph="{...}" />
-            <marker date="1561575314469" expanded="true" signature="1735:1783" ph="{...}" />
-            <marker date="1561575314469" expanded="true" signature="1880:1900" ph="{...}" />
-            <marker date="1561575314469" expanded="true" signature="2012:2032" ph="{...}" />
-            <marker date="1561575314469" expanded="true" signature="2128:2148" ph="{...}" />
+            <marker date="1561494929104" expanded="true" signature="40:172" ph="{...}" />
+            <marker date="1561494929104" expanded="true" signature="64:170" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Weather/WeatherRoot.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1561494616979" expanded="false" signature="6:56" ph="..." />
+            <marker date="1561494616979" expanded="true" signature="93:227" ph="{...}" />
+            <marker date="1561494616979" expanded="true" signature="124:225" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0C46AE1D-6A61-4930-9A91-34D41BD0AD56/53/4ab6ae19/WebScraper.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state>
           <caret line="1317" column="6" selection-start-line="1317" selection-start-column="6" selection-end-line="1317" selection-end-column="6" />
           <folding>
             <marker date="1561578699752" expanded="true" signature="0:312" ph="/* Decompiled with JetBrains decompiler ... */" />
-            <marker date="1561578699752" expanded="false" signature="320:703" ph="..." />
             <marker date="1561578699752" expanded="true" signature="729:68954" ph="{...}" />
             <marker date="1561578699752" expanded="true" signature="734:998" ph="/// A base class which developers can extend to build custom web-scraping applications. ... " />
             <marker date="1561578699752" expanded="true" signature="1033:68952" ph="{...}" />
@@ -1337,29 +1119,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Weather/WeatherRoot.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <marker date="1561494616979" expanded="false" signature="6:56" ph="..." />
-            <marker date="1561494616979" expanded="true" signature="93:227" ph="{...}" />
-            <marker date="1561494616979" expanded="true" signature="124:225" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/News/News.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-          <folding>
-            <marker date="1561494929104" expanded="true" signature="40:172" ph="{...}" />
-            <marker date="1561494929104" expanded="true" signature="64:170" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProfileApplication/Services/WeatherService.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -1374,9 +1133,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Scraper/Scraper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <marker date="1561639287396" expanded="true" signature="79:273" ph="{...}" />
+            <marker date="1561639287396" expanded="true" signature="126:271" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApplication/Controllers/ProfileController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+          <folding>
+            <marker date="1561651588080" expanded="true" signature="6:229" ph="..." />
+            <marker date="1561651588080" expanded="true" signature="271:2372" ph="{...}" />
+            <marker date="1561651588080" expanded="true" signature="400:2370" ph="{...}" />
+            <marker date="1561651588080" expanded="true" signature="692:765" ph="{...}" />
+            <marker date="1561651588080" expanded="true" signature="915:989" ph="{...}" />
+            <marker date="1561651588080" expanded="true" signature="1139:1209" ph="{...}" />
+            <marker date="1561651588080" expanded="true" signature="1353:1417" ph="{...}" />
+            <marker date="1561651588080" expanded="true" signature="1565:1632" ph="{...}" />
+            <marker date="1561651588080" expanded="true" signature="1780:1848" ph="{...}" />
+            <marker date="1561651588080" expanded="true" signature="1951:1999" ph="{...}" />
+            <marker date="1561651588080" expanded="true" signature="2096:2116" ph="{...}" />
+            <marker date="1561651588080" expanded="true" signature="2228:2248" ph="{...}" />
+            <marker date="1561651588080" expanded="true" signature="2344:2364" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ProfileApplication/Services/NewsService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
+        <state relative-caret-position="240">
           <caret line="20" selection-start-line="20" selection-end-line="21" selection-end-column="30" />
           <folding>
             <marker date="1561550896634" expanded="true" signature="6:92" ph="..." />
@@ -1388,65 +1180,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApplication/Services/LocationsService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="24" column="80" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="80" />
-          <folding>
-            <marker date="1561568263871" expanded="true" signature="6:279" ph="..." />
-            <marker date="1561568263871" expanded="true" signature="318:3479" ph="{...}" />
-            <marker date="1561568263871" expanded="true" signature="354:3477" ph="{...}" />
-            <marker date="1561568263871" expanded="true" signature="397:1020" ph="{...}" />
-            <marker date="1561568263871" expanded="true" signature="584:646" ph="{...}" />
-            <marker date="1561568263871" expanded="true" signature="1087:1616" ph="{...}" />
-            <marker date="1561568263871" expanded="true" signature="1290:1606" ph="{...}" />
-            <marker date="1561568263871" expanded="true" signature="1668:2596" ph="{...}" />
-            <marker date="1561568263871" expanded="true" signature="1961:2586" ph="{...}" />
-            <marker date="1561568263871" expanded="true" signature="2663:3232" ph="{...}" />
-            <marker date="1561568263871" expanded="true" signature="2914:3128" ph="{...}" />
-            <marker date="1561568263871" expanded="true" signature="3306:3471" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Events/Event.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="48">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
-            <marker date="1561588133548" expanded="true" signature="42:290" ph="{...}" />
-            <marker date="1561588133548" expanded="true" signature="67:288" ph="{...}" />
+            <marker date="1561647052729" expanded="true" signature="42:386" ph="{...}" />
+            <marker date="1561647052729" expanded="true" signature="67:384" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApplication/Helpers/Scraper/Scraper.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A2DDBDA9-1E09-414A-801B-36BA566856C2/c2/8f6bad2b/ExceptionDispatchInfo.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        <state relative-caret-position="191">
+          <caret line="83" column="32" lean-forward="true" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApplication/Services/LocationsService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
           <folding>
-            <marker date="1561589362223" expanded="true" signature="6:228" ph="..." />
-            <marker date="1561589362223" expanded="true" signature="274:1736" ph="{...}" />
-            <marker date="1561589362223" expanded="true" signature="301:1734" ph="{...}" />
-            <marker date="1561589362223" expanded="true" signature="446:534" ph="{...}" />
-            <marker date="1561589362223" expanded="true" signature="579:1728" ph="{...}" />
-            <marker date="1561589362223" expanded="true" signature="659:1558" ph="{...}" />
-            <marker date="1561589362223" expanded="true" signature="1195:1544" ph="{...}" />
-            <marker date="1561589362223" expanded="true" signature="1576:1691" ph="{...}" />
+            <marker date="1561645793783" expanded="true" signature="6:279" ph="..." />
+            <marker date="1561645793783" expanded="true" signature="318:3479" ph="{...}" />
+            <marker date="1561645793783" expanded="true" signature="354:3477" ph="{...}" />
+            <marker date="1561645793783" expanded="true" signature="397:1020" ph="{...}" />
+            <marker date="1561645793783" expanded="true" signature="584:646" ph="{...}" />
+            <marker date="1561645793783" expanded="true" signature="1087:1616" ph="{...}" />
+            <marker date="1561645793783" expanded="true" signature="1290:1606" ph="{...}" />
+            <marker date="1561645793783" expanded="true" signature="1668:2596" ph="{...}" />
+            <marker date="1561645793783" expanded="true" signature="1961:2586" ph="{...}" />
+            <marker date="1561645793783" expanded="true" signature="2663:3232" ph="{...}" />
+            <marker date="1561645793783" expanded="true" signature="2914:3128" ph="{...}" />
+            <marker date="1561645793783" expanded="true" signature="3306:3471" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Scraper/ElementScraper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <marker date="1561638261297" expanded="true" signature="6:228" ph="..." />
+            <marker date="1561638261297" expanded="true" signature="274:1714" ph="{...}" />
+            <marker date="1561638261297" expanded="true" signature="318:1712" ph="{...}" />
+            <marker date="1561638261297" expanded="true" signature="384:472" ph="{...}" />
+            <marker date="1561638261297" expanded="true" signature="527:1706" ph="{...}" />
+            <marker date="1561638261297" expanded="true" signature="607:1536" ph="{...}" />
+            <marker date="1561638261297" expanded="true" signature="1173:1522" ph="{...}" />
+            <marker date="1561638261297" expanded="true" signature="1554:1669" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Scraper/IScraper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1561636875068" expanded="false" signature="6:47" ph="..." />
+            <marker date="1561636875068" expanded="true" signature="93:170" ph="{...}" />
+            <marker date="1561636875068" expanded="true" signature="125:168" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Scraper/HrefScraper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding>
+            <marker date="1561653482287" expanded="false" signature="6:180" ph="..." />
+            <marker date="1561653482287" expanded="true" signature="226:1664" ph="{...}" />
+            <marker date="1561653482287" expanded="true" signature="267:1662" ph="{...}" />
+            <marker date="1561653482287" expanded="true" signature="330:418" ph="{...}" />
+            <marker date="1561653482287" expanded="true" signature="473:1656" ph="{...}" />
+            <marker date="1561653482287" expanded="true" signature="553:1486" ph="{...}" />
+            <marker date="1561653482287" expanded="true" signature="1221:1420" ph="{...}" />
+            <marker date="1561653482287" expanded="true" signature="1287:1402" ph="{...}" />
+            <marker date="1561653482287" expanded="true" signature="1504:1619" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApplication/Services/MoviesService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="39" selection-start-line="28" selection-end-line="39" />
+          <folding>
+            <marker date="1561671569605" expanded="true" signature="6:213" ph="..." />
+            <marker date="1561671569605" expanded="true" signature="252:1636" ph="{...}" />
+            <marker date="1561671569605" expanded="true" signature="285:1634" ph="{...}" />
+            <marker date="1561671569605" expanded="true" signature="347:1628" ph="{...}" />
+            <marker date="1561671569605" expanded="true" signature="1105:1522" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Scraper/ImgScraper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding>
+            <marker date="1561672304224" expanded="true" signature="6:89" ph="..." />
+            <marker date="1561672304224" expanded="true" signature="135:1359" ph="{...}" />
+            <marker date="1561672304224" expanded="true" signature="175:1357" ph="{...}" />
+            <marker date="1561672304224" expanded="true" signature="237:325" ph="{...}" />
+            <marker date="1561672304224" expanded="true" signature="372:1351" ph="{...}" />
+            <marker date="1561672304224" expanded="true" signature="452:1181" ph="{...}" />
+            <marker date="1561672304224" expanded="true" signature="1011:1135" ph="{...}" />
+            <marker date="1561672304224" expanded="true" signature="1199:1314" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ProfileApplication/Services/EventService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
+        <state relative-caret-position="349">
+          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
           <folding>
-            <marker date="1561589362274" expanded="true" signature="6:214" ph="..." />
-            <marker date="1561589362274" expanded="true" signature="253:1622" ph="{...}" />
-            <marker date="1561589362274" expanded="true" signature="285:1620" ph="{...}" />
-            <marker date="1561589362274" expanded="true" signature="347:1614" ph="{...}" />
-            <marker date="1561589362274" expanded="true" signature="923:1507" ph="{...}" />
+            <marker date="1561672487453" expanded="true" signature="6:214" ph="..." />
+            <marker date="1561672487453" expanded="true" signature="253:2238" ph="{...}" />
+            <marker date="1561672487453" expanded="true" signature="285:2236" ph="{...}" />
+            <marker date="1561672487453" expanded="true" signature="347:2230" ph="{...}" />
+            <marker date="1561672487453" expanded="true" signature="1121:2124" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApplication/Models/Movies/Movie.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding>
+            <marker date="1561650655778" expanded="true" signature="42:209" ph="{...}" />
+            <marker date="1561650655778" expanded="true" signature="67:207" ph="{...}" />
           </folding>
         </state>
       </provider>

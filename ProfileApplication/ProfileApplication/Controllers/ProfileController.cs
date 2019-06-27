@@ -51,6 +51,13 @@ namespace ProfileApplication.Controllers
         {
             return EventService.GetEvents(id);
         }
+        
+        // GET api/profile/locations/)
+        [HttpGet("locations/{id}/movies")]
+        public ActionResult<string> GetMovies(string id)
+        {
+            return MoviesService.GetMovies(id);
+        }
 
         // GET api/values/5
         [HttpGet("{id}")]
