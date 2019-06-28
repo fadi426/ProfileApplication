@@ -11,10 +11,13 @@ namespace ProfileApplication.Services
     {
         public static string GetMovies(string location)
         {
+            //scrapes the current movies in The Netherlands
             string fullUrl = "https://www.pathe.nl/films/actueel";
             string className = "poster poster--smaller";
-            ElementScraper elementScraper = new ElementScraper(fullUrl, className);
-            List<string> elementList = elementScraper.Scrape();
+            
+            //scrape the needed info for the Movie object
+            ElementContentScraper elementContentScraper = new ElementContentScraper(fullUrl, className);
+            List<string> elementList = elementContentScraper.Scrape();
             
             HrefScraper hrefScraper = new HrefScraper(fullUrl, className);
             List<string> hrefList = hrefScraper.Scrape();
@@ -25,19 +28,21 @@ namespace ProfileApplication.Services
             List<Movie> movieList = new List<Movie>();
             Regex movieNameRegex = new Regex(@"\s*(.*)");
 
+            //build the Movie object with the result values from the scrapers
             for (int i = 0; i < elementList.Count; i++)
             {
                 string element = elementList[i];
                 Movie movieObj = new Movie();
 
                 Match match = movieNameRegex.Match(element);
-                movieObj.Name = match.Groups[1].Value;
+                movieObj.Title = match.Groups[1].Value;
                 movieObj.Url = "https://www.pathe.nl" + hrefList[i];
                 movieObj.UrlToImage = imgList[i];
                 
                 movieList.Add(movieObj);
             }
 
+            //convert the Movie object to json
             string result = JsonConvert.SerializeObject(movieList);
             return result;
         }

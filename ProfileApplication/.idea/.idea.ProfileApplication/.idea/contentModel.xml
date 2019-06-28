@@ -37,7 +37,7 @@
             <e p="News.cs" t="Include" />
           </e>
           <e p="Scraper" t="Include">
-            <e p="ElementScraper.cs" t="Include" />
+            <e p="ElementContentScraper.cs" t="Include" />
             <e p="HrefScraper.cs" t="Include" />
             <e p="ImgScraper.cs" t="Include" />
             <e p="IScraper.cs" t="Include" />

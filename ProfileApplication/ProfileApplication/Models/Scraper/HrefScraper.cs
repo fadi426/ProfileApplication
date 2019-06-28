@@ -34,6 +34,7 @@ namespace ProfileApplication.Helpers.Scraper
 
                 var nodes = doc.DocumentNode.SelectNodes($"//*[@class='{ClassName}']");
                 
+                //Scrape the hrefs of the element
                 var hrefs = nodes.Descendants("a")
                     .Select(node => node.GetAttributeValue("href","")) 
                     .ToList();

@@ -9,9 +9,9 @@ using ProfileApplication.Models.Events;
 
 namespace ProfileApplication.Helpers.Scraper
 {
-    public class ElementScraper : Scraper
+    public class ElementContentScraper : Scraper
     {
-        public ElementScraper(string url, string className)
+        public ElementContentScraper(string url, string className)
         {
             this.Url = url;
             this.ClassName = className;
@@ -34,6 +34,7 @@ namespace ProfileApplication.Helpers.Scraper
 
                 var nodes = doc.DocumentNode.SelectNodes($"//*[@class='{ClassName}']") ?? Enumerable.Empty<HtmlNode>();
                 
+                //Scrape the element content
                 foreach (var node in nodes)
                 {
                     var splittedWords = Regex.Split(node.InnerText, "\n");

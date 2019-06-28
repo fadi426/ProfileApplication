@@ -32,6 +32,7 @@ namespace ProfileApplication.Helpers.Scraper
                 var nodes = doc.DocumentNode.SelectNodes($"//*[@class='{ClassName}']");
                 List<string> srcs = new List<string>();
 
+                //Scrape the img src from the element
                 foreach (var node in nodes)
                 {
                     srcs.Add(node.SelectSingleNode("img").GetAttributeValue("src",""));

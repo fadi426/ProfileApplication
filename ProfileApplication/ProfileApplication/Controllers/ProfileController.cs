@@ -31,57 +31,32 @@ namespace ProfileApplication.Controllers
             return _locationsService.GetLocation(id);
         }
         
-        // GET api/profile/weather
+        // GET api/profile/locations/(location)/weather
         [HttpGet("locations/{id}/weather")]
         public ActionResult<string> GetWeatherInfo(string id)
         {
             return WeatherService.GetWeather(id);
         }
         
-        // GET api/profile/locations/)
+        // GET api/profile/locations/(location)/news
         [HttpGet("locations/{id}/news")]
         public ActionResult<string> GetNews(string id)
         {
             return NewsService.GetNews(id);
         }
         
-        // GET api/profile/locations/)
+        // GET api/profile/locations/(location)/events
         [HttpGet("locations/{id}/events")]
         public ActionResult<string> GetEvents(string id)
         {
             return EventService.GetEvents(id);
         }
         
-        // GET api/profile/locations/)
+        // GET api/profile/locations/(location)/movies
         [HttpGet("locations/{id}/movies")]
         public ActionResult<string> GetMovies(string id)
         {
             return MoviesService.GetMovies(id);
-        }
-
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
-        {
-            return "value";
-        }
-
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
         }
     }
 }

@@ -11,20 +11,23 @@ namespace ProfileApplication.Services
     {
         public static string GetEvents(string location)
         {
+            //scrapes the current and upcoming events of the location
             string urlHead = "https://www.ticketmaster.nl/search/?keyword=";
             string fullUrl = urlHead + location;
             string className = "sc-17c7lsa-1 iMroit";
             
+            //scrape the needed info for the Event object
             HrefScraper hrefScraper = new HrefScraper(fullUrl, className);
             List<string> hrefList = hrefScraper.Scrape();
             
-            ElementScraper elementScraper = new ElementScraper(fullUrl, className);
-            List<string> elementList = elementScraper.Scrape();
+            ElementContentScraper elementContentScraper = new ElementContentScraper(fullUrl, className);
+            List<string> elementList = elementContentScraper.Scrape();
             
             List<Event> eventList = new List<Event>();
             Regex htmlRegex = new Regex(@"((\w*?\d*\s\d*:\d*.*)( -))");
             Regex eventRegex = new Regex(@"(\w*)(\d\d)(\w*)(\s)(\d*:\d*)(.*)");
 
+            //build the Event object with the scrapers result value's
             for (int i = 0; i < elementList.Count; i++)
             {
                 string element = elementList[i];
@@ -42,6 +45,7 @@ namespace ProfileApplication.Services
                 eventObj.Title = match.Groups[6].Value;
                 eventObj.Url = hrefList[i];
                 
+                // scrape the image of the event from the href link
                 ImgScraper imageScraper = new ImgScraper(hrefList[i], "vhbo54-1 dvQcM");
                 List<string> images = imageScraper.Scrape();
                 if (images.Count > 0)
@@ -52,6 +56,7 @@ namespace ProfileApplication.Services
                 eventList.Add(eventObj);
             }
 
+            //convert the Event object to json
             string result = JsonConvert.SerializeObject(eventList);
             return result;
         }

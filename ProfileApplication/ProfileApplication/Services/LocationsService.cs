@@ -15,6 +15,7 @@ namespace ProfileApplication.Services
     {
         public string GetLocations()
         {
+            //create a single instance of the Location object and return it directly when it has already been fetched
             LocationsSingleton locationsSingleton = LocationsSingleton.Instance;
             string locations = locationsSingleton.Locations;
             if (locations != null)
@@ -22,6 +23,7 @@ namespace ProfileApplication.Services
                 return locations;
             }
             
+            //convert the object to a Json
             SerializationHelper serializationHelper = new SerializationHelper();
             List<Locations> locationArr = GetLocationNames();
             string serializedLocations = serializationHelper.Serialize(locationArr, true);
@@ -46,6 +48,7 @@ namespace ProfileApplication.Services
 
         public string GetLocation(string location)
         {
+            //get the location information and build the location object
             const string urlHead = "https://eu1.locationiq.com/v1/search.php?key=36a3bf33f47a91&q=";
             const string urlTail = "&format=json";
             string fullUrl = urlHead + location + urlTail;
@@ -69,6 +72,7 @@ namespace ProfileApplication.Services
 
         private static string FindProvince(string locationString)
         {
+            //search with a regex for the province in the display_name json object
             Regex regex = new Regex(@"(\w*)(,\W\d*)?(\W*)?,?\W?(\b(\w+)\W*$)");
             Regex regexZip = new Regex(@"(\w*)(,\W\w*)(,\W\d*),?\W?(\b(\w+)\W*$)");
             Match match;
@@ -85,6 +89,7 @@ namespace ProfileApplication.Services
         
         private static string FindCountry(string locationString)
         {
+            //search with a regex for the country in the display_name json object
             Regex regex = new Regex(@"(\w*$)");
             Match match = regex.Match(locationString);
             return match.Groups[1].Value;

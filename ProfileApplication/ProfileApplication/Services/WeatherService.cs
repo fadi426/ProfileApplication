@@ -14,6 +14,7 @@ namespace ProfileApplication.Services
     {
         public static string GetWeather(string location)
         {
+            //gets the weather information of the location
             const string urlHead = "http://weerlive.nl/api/json-data-10min.php?key=3e65790d54&locatie=";
             string fullUrl = urlHead + location;
             
@@ -23,6 +24,7 @@ namespace ProfileApplication.Services
                 WeatherRoot weatherRoot = JsonConvert.DeserializeObject<WeatherRoot>(jsonData);
                 Weather weather = weatherRoot.WeatherArr[0];
                 
+                //return the c# object names instead of the JsonProperty names
                 SerializationHelper serializationHelper = new SerializationHelper();
                 string result = serializationHelper.Serialize(weather, true);
                 return result;
